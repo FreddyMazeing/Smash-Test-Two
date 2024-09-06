@@ -10,7 +10,7 @@ import facebook from "../assets/facebook.png";
 
 const HeroSection = () => {
   return (
-    <div className=" relative max-w-full font-montserrat min-h-screen flex items-center bg-gradient-to-b from-[#FF30E3]/80 to-white justify-center">
+    <div className=" relative max-w-full min-h-screen font-montserrat flex-col flex items-center bg-gradient-to-b from-[#FF30E3]/80 to-white justify-center">
       <div className="hidden   absolute inset-0 left-1/2 rounded-full h-[300px] w-[300px] animate-blob top-48 filter blur-3xl bg-[#FF30E3] "></div>
       <div className="hidden  absolute inset-0 left-2/3 rounded-full h-[300px] w-[300px] animate-blob top-44 filter blur-3xl bg-[#FF30E3] opacity-50 "></div>
       <div className="hidden  absolute inset-0 left-1/3 rounded-full anima animate-blob h-[300px] w-[300px] top-48 filter blur-3xl bg-white  "></div>
@@ -88,14 +88,14 @@ const HeroSection = () => {
       </div>
 
       {/* Mobile */}
-      <div className="absolute inset-0 bg-white rounded-full top-56 left-20 filter animate-blob blur-3xl   w-[200px] h-[200px]"></div>
-      <div className="absolute inset-0 bg-purple-600/50 animate-blob rounded-full top-56 left-[150px] filter blur-3xl   w-[200px] h-[200px]"></div>
-      <div className="absolute inset-0 bg-white/70 rounded-full animate-blob top-[400px] left-20 filter blur-3xl   w-[200px] h-[200px]"></div>
+      <div className="absolute  md:hidden  inset-0 bg-white rounded-full top-56 left-20 filter animate-blob blur-3xl   w-[200px] h-[200px]"></div>
+      <div className="absolute  md:hidden inset-0 bg-purple-600/50 animate-blob rounded-full top-56 left-[150px] filter blur-3xl   w-[200px] h-[200px]"></div>
+      <div className="absolute md:hidden  inset-0 bg-white/70 rounded-full animate-blob top-[400px] left-20 filter blur-3xl   w-[200px] h-[200px]"></div>
       <div className="relative font-sora shadow-md shadow-[#EC3015]/5 bg-white/10 md:hidden backdrop-blur-xl  w-[320px] h-[500px] mx-4 rounded-xl flex  flex-col items-center justify-center">
         <img
           src={niketnairmax}
           alt="niketnairmax"
-          className="-rotate-0 absolute inset-0 w-[500px]  -top-52 z-20"
+          className="-rotate-0 absolute inset-0 w-[300px]  -top-40 z-20"
         />
         <h2 className="font-black text-[#EC3015] italic -translate-x-20">
           SMASHY
