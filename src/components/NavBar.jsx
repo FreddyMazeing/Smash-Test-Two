@@ -41,7 +41,7 @@ const NavBar = () => {
       {/* Mobile Screen Nav Items */}
       {open && (
         <div
-          className="sticky right-0 z-10 w-full   flex flex-col
+          className="sticky right-0 z-50 w-full   flex flex-col
           justify-center items-center md:hidden"
         >
           <ul className=" flex flex-col justify-center items-center  text-white py-6 space-y-8 font-semibold font-montserrat text-base ">
