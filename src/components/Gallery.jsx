@@ -26,13 +26,13 @@ const Gallery = () => {
         </p>
 
         {/* The Gallery Component */}
-        <div className="flex  rounded-full hover:tracking-wide duration-300 ease-linear items-center space-x-6 justify-end  shadow-sm shadow-black/20 ">
-          <h1 className="uppercase font-semibold text-[#FF30E3] pl-6 text-sm ">
+        <div className="flex  rounded-full  ease-linear items-center space-x-6 justify-end  shadow-sm shadow-black/20 ">
+          <h1 className="uppercase font-semibold text-[#FF30E3] pl-6 text-xs md:text-sm ">
             the Gallery
           </h1>
-          <div className="border-2 flex justify-end  border-[#FF30E3] text-white  pl-6 rounded-full">
+          <div className="border-2 flex justify-end  border-[#FF30E3] text-white  pl-6  rounded-full">
             <div className="bg-[#EC3015] flex space-x-3  justify-end rounded-full items-center ">
-              <h1 className="text-sm font-thin px-3">ORDER YOURS</h1>
+              <h1 className="text-xs md:text-sm font-thin px-3">ORDER YOURS</h1>
               <div className="px-4 rounded-full relative flex flex-col  bg-[#FF30E3] text-sm py-2 ">
                 <MdAddShoppingCart
                   onClick={() => setClicked((prev) => !prev)}
@@ -40,7 +40,7 @@ const Gallery = () => {
                 />
                 {clicked && (
                   <div
-                    className="absolute transition-opacity duration-1000    -top-20 left-2 py-2 bg-[#FF30E3]/10 backdrop-blur-sm
+                    className="absolute transition-opacity duration-1000 space-y-2    -top-28 left-2 py-4 bg-[#FF30E3]/10 backdrop-blur-sm
                       items-center justify-center rounded-full flex flex-col"
                   >
                     <a href="whatsapp://send?phone=+27781351373">
