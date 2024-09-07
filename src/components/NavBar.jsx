@@ -9,7 +9,7 @@ const NavBar = () => {
     setOpen(!open);
   };
   return (
-    <nav className="sticky  realtive font-montserrat   backdrop-blur-lg top-0 z-20 bg-[#FF30E3]/80 ">
+    <nav className="sticky  realtive font-montserrat   backdrop-blur-sm top-0 z-20 bg-[#FF30E3]/80 ">
       <div className=" flex items-center justify-between mx-4 md:mx-8 py-8  md:py-4">
         {/* Smashy Logo */}
         <h1 className="text-xl font-semibold  text-[#EC3015] hover:text-[#FF30E3] duration-200 ease-in-out cursor-pointer">

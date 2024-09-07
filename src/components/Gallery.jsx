@@ -12,7 +12,7 @@ import repusen3 from "../assets/repusen3.png";
 import repusen2 from "../assets/repusen2.png";
 import blackrepusen from "../assets/blackrepusen.png";
 import smashyartboard from "../assets/smashyartboard.png";
-
+import ordernow from "../assets/ordernow.png";
 import { TbPointFilled } from "react-icons/tb";
 import { HiOutlineMinus } from "react-icons/hi2";
 
@@ -247,9 +247,17 @@ const Gallery = () => {
             className="absolute inset-0 -left-2 "
           />
           <img
+            src={ordernow}
+            alt="smashyartboard"
+            className="absolute inset-0 w-32 -translate-y-10 translate-x-2  -left-2 "
+          />
+          <h1 className="absolute inset-0 text-[#EC3015] font-bold left-8 -top-6 ">
+            Order <br /> <span className="text-xl">Now!!</span>
+          </h1>
+          <img
             src={smashyartboard}
             alt="smashyartboard"
-            className="absolute inset-0 left-48  backdrop-blur-md rounded-full"
+            className="absolute inset-0 left-48  shadow-md shadow-[#FF30E3]/20 backdrop-blur-sm    rounded-full"
           />
           <img
             src={nikeairuntempo}
@@ -257,15 +265,15 @@ const Gallery = () => {
             className="absolute inset-0 top-96 -left-4   "
           />
           <div className=" absolute inset-0 top-[600px] grid grid-cols-2 gap-4 bg-[#FF30E3]/10 shadow-md shadow-black/20 px-4 h-[100px] justify-center  rounded-2xl items-center">
-            <div className="flex flex-col space-y-2 ">
-              <h1>nike air untempo</h1>
-              <h1>sizes: 2-10</h1>
-              <h1>limited color</h1>
+            <div className="flex flex-col space-y-1 ">
+              <h1 className="font-bold text-[#FF30E3]"> nike air untempo</h1>
+              <h1 className="font-light text-[#EC3015]">sizes: 2-10</h1>
+              <h1 className="font-light text-[#EC3015]">limited color</h1>
             </div>
-            <div className="flex flex-col space-y-2 items-center">
-              <h1>Purchase </h1>
-              <h1>Today</h1>
-              <button className="bg-white text-[#EC3015] px-4 py-1">
+            <div className="flex flex-col space-y-1 items-center">
+              <h1 className="font-bold text-[#FF30E3] uppercase ">Purchase </h1>
+              <h1 className="font-light text-[#EC3015]  uppercase">Today</h1>
+              <button className="bg-white text-[#EC3015] font-bold text-xl rounded-full px-6 py-1">
                 Order
               </button>
             </div>
