@@ -46,7 +46,7 @@ const NavBar = () => {
         </div>
       </div>
 
-      <div className="absolute md:top-[650px] top-[500px] left-2 inset-0">
+      <div className="absolute md:top-[650px] top-[700px] left-2 inset-0">
         <a href="whatsapp://send?phone=+27815218030">
           <img
             src={whatsup}

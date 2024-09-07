@@ -187,12 +187,14 @@ const Gallery = () => {
             <img
               src={niketnairmaxbrown}
               alt="niketnairmaxbrown"
-              className=" absolute inset-0 md:hover:scale-110 duration-200 ease-in-out hover:contrast-125 md:w-[400px] w-[210px] md:-top-16 top-1 -left-12  md:-left-40"
+              className=" absolute inset-0 md:hover:scale-110 duration-200 ease-in-out
+               hover:contrast-125 md:w-[400px] w-[210px] md:-top-16 top-1 -left-9  md:-left-40"
             />
             <img
               src={niketnairmaxblack}
               alt="niketnairmaxblack"
-              className=" absolute inset-0 md:hover:scale-110 duration-200 ease-in-out   md:w-[400px] w-[230px] md:top-16 top-24 left-16  md:left-72"
+              className=" absolute inset-0 md:hover:scale-110 duration-200 ease-in-out 
+                md:w-[400px] w-[230px] md:top-16 top-24 left-24  md:left-72"
             />
           </div>
         </div>
