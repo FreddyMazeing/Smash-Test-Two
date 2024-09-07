@@ -43,7 +43,7 @@ const Gallery = () => {
                     className="absolute transition-opacity duration-1000 space-y-2    -top-28 left-2 py-4 bg-[#FF30E3]/10 backdrop-blur-sm
                       items-center justify-center rounded-full flex flex-col"
                   >
-                    <a href="whatsapp://send?phone=+27781351373">
+                    <a href="whatsapp://send?phone=+27815218030">
                       <img
                         src={whatsup}
                         alt="WhatsApp Smashy"
