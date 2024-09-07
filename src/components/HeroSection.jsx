@@ -101,13 +101,13 @@ const HeroSection = () => {
         />
         <h2 className="font-bold text-[#EC3015]  -translate-x-20">SMASHY</h2>
         <div className="relative group">
-          <h1 className="text-8xl font-bold font-montserrat group-hover:tracking-wide duration-200 text-[#FF30E3] filter blur-sm absolute  scale-105 ">
+          <h1 className="text-8xl font-bold font-montserrat text-[#FF30E3] filter blur-sm absolute  scale-105 ">
             FOOT
           </h1>
-          <h1 className="text-8xl font-bold font-montserrat  group-hover:tracking-wide duration-200  text-[#EC3015]  inset-0 scale-105 ">
+          <h1 className="text-8xl font-bold font-montserrat   text-[#EC3015]  inset-0 scale-105 ">
             FOOT
           </h1>
-          <h1 className="text-8xl font-bold font-montserrat  group-hover:tracking-tight  duration-200 ease-linear  text-white inset-0 absolute">
+          <h1 className="text-8xl font-bold font-montserrat   ease-linear  text-white inset-0 absolute">
             FOOT
           </h1>
         </div>
