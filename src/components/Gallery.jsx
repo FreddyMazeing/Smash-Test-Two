@@ -30,8 +30,8 @@ const Gallery = () => {
           EXPLORE OUR RANGE AND FIND YOUR PERFECT PAIR TODAY.
         </p>
 
-        {/* Nike TN  AIR MAX */}
-        <div className="flex   rounded-full  ease-linear items-center space-x-6 justify-end  shadow-sm shadow-black/20 ">
+        {/* THE GALLERY */}
+        <div className="flex    rounded-full  ease-linear items-center space-x-6 justify-end  shadow-sm shadow-black/20 ">
           <h1 className="uppercase font-semibold text-[#FF30E3] pl-6 text-xs md:text-sm ">
             the Gallery
           </h1>
@@ -70,16 +70,16 @@ const Gallery = () => {
           </div>
         </div>
 
-        {/*Nike TN AIrz  */}
-        <div className="flex  mx-2 items-center my-20 justify-center">
+        {/*Nike TN AIR CREAM  */}
+        <div className="flex max-w-[340px] items-center my-20 justify-center">
           <div className="relative grid grid-cols-2 text-white space-y-2 justify-center py-4 rounded-full pr-14 md:px-20 px-10 bg-[#FF30E3] ">
             <img
               src={niketnairmax2}
               alt="niketnairmax"
-              className=" absolute inset-0  md:w-full w-[210px] md:-top-36 -top-10 -left-3  md:-left-52"
+              className=" absolute inset-0  md:w-full w-[210px] md:-top-36 -top-10 -left-4  md:-left-52"
             />
             <div></div>
-            <div className="flex  text-xs flex-col space-y-1 translate-x-4 md:space-y-3">
+            <div className="flex  text-xs flex-col space-y-1 translate-x-6 md:space-y-3">
               <h1 className="font-bold ">NIKE TN AIR MAX +(plus)</h1>
               <h2 className="font-bold text-xs">AVAILABLE IN-SIZES</h2>
               <div className="flex items-center space-x-1">
@@ -125,7 +125,7 @@ const Gallery = () => {
           </div>
         </div>
         {/*Nike TN AIR Black And Brown  */}
-        <div className="flex  mx-2 items-center my-20 justify-center">
+        <div className="flex max-w-[320px] mx-2 items-center my-20 justify-center">
           <div className="relative  flex text-white space-y-2 justify-center items-start py-16  md:py-20 rounded-t-full rounded-br-full  md:px-40 px-10 bg-[#FF30E3] ">
             <div className="absolute inset-0 left-4 -top-14 flex space-y-2 flex-col items-center  text-red-500  bg-white/10 shadow-md shadow-black/10 rounded-3xl backdrop-blur-sm justify-center w-[200px] h-[100px]">
               <h1 className="text-[#FF30E3] font-bold">PURCHASE</h1>
@@ -168,7 +168,7 @@ const Gallery = () => {
             <img
               src={niketnairmaxblack}
               alt="niketnairmaxblack"
-              className=" absolute inset-0  md:w-2/3 w-[230px] md:top-16 top-24 left-24  md:left-52"
+              className=" absolute inset-0  md:w-2/3 w-[230px] md:top-16 top-24 left-16  md:left-52"
             />
           </div>
         </div>
