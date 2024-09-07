@@ -18,7 +18,7 @@ const Smashy = () => {
         <h1 className="text-white translate-y-10 text-5xl font-bold z-10">
           SMASHY
         </h1>
-        <div className="w-[300px] h-[100px] relative flex items-center justify-center shadow-md translate-y-16 z-20 bg-white rounded-md">
+        <div className="w-[300px] h-[100px] relative flex items-center justify-center shadow-md translate-y-16  bg-white rounded-md">
           <img
             src={repusen}
             alt="repusen"
