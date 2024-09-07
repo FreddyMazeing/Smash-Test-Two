@@ -9,13 +9,13 @@ import facebook from "../assets/facebook.png";
 
 const Smashy = () => {
   return (
-    <div className="md:hidden max-w-full my-2 bg-white flex items-center justify-center">
+    <div className="md:hidden font-montserrat max-w-full my-2 bg-white flex items-center justify-center">
       {/* Smashies */}
       <div
-        className="relative font-sora md:hidden 
+        className="relative  md:hidden 
        w-[320px] h-[500px] mx-4 rounded-xl flex  flex-col items-center justify-center"
       >
-        <h1 className="text-white translate-y-10 text-5xl font-bold z-10">
+        <h1 className="text-white font-montserrat translate-y-10 text-5xl font-bold z-10">
           SMASHY
         </h1>
         <div className="w-[300px] h-[100px] relative z-10 flex items-center justify-center shadow-md translate-y-16  bg-white rounded-md">

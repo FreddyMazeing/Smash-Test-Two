@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontSize: {
+        xxs: "0.6rem",
+      },
       fontFamily: {
         sora: ["Sora", "sans-serif"],
         sourcecodepro: ["Source Code Pro", "monospace"],

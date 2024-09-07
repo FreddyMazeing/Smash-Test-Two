@@ -6,19 +6,19 @@ import smashy3 from "../assets/smashy3.png";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import whatsup from "../assets/whatsup.png";
 import instagram from "../assets/instagram.png";
-import  facebook from "../assets/facebook.png";
+import facebook from "../assets/facebook.png";
 
 const HeroSection = () => {
   return (
-    <div className=" relative max-w-full min-h-screen font-montserrat flex-col flex items-center bg-gradient-to-b from-[#FF30E3]/80 to-white justify-center">
+    <div className="  relative max-w-full min-h-screen font-montserrat flex-col flex items-center bg-gradient-to-b from-[#FF30E3]/80 to-white justify-center">
       <div className="hidden   absolute inset-0 left-1/2 rounded-full h-[300px] w-[300px] animate-blob top-48 filter blur-3xl bg-[#FF30E3] "></div>
       <div className="hidden  absolute inset-0 left-2/3 rounded-full h-[300px] w-[300px] animate-blob top-44 filter blur-3xl bg-[#FF30E3] opacity-50 "></div>
       <div className="hidden  absolute inset-0 left-1/3 rounded-full anima animate-blob h-[300px] w-[300px] top-48 filter blur-3xl bg-white  "></div>
-      <div className="hidden relative shadow-md shadow-[#EC3015]/5  w-[1000px] font-sora py-10 rounded-xl md:flex flex-col items-center mt-20 justify-center mx-auto bg-white/10 backdrop-blur-3xl ">
+      <div className="hidden relative shadow-md shadow-[#EC3015]/10  w-[1000px] font-montserrat py-10 rounded-xl md:flex flex-col items-center mt-20 justify-center mx-auto bg-white/10 backdrop-blur-3xl ">
         <img
           src={niketnairmax}
           alt="nike tn air max"
-          className="absolute  hover:scale-110 duration-100 ease-in-out  w-1/2 rotate-45 -inset-10 left -top-32 "
+          className="absolute  hover:scale-110 duration-100 ease-in-out  w-1/2 rotate-45 -inset-10 -left-16 -top-2 "
         />
         <img
           src={smashy1}
@@ -38,22 +38,26 @@ const HeroSection = () => {
         <img
           src={niketnairmax}
           alt="nike tn air max"
-          className="absolute hover:scale-110 duration-100 ease-in-out  w-1/3  inset-0 left-[750px]  top-60 "
+          className="absolute hover:scale-110 duration-100 ease-in-out  w-1/3  inset-0 left-[750px]  top-[305px] "
         />
 
         <h2 className="font-black text-[#EC3015]  -translate-x-36 ">SMASHY</h2>
-        <div className="relative">
-          <h1 className="text-9xl font-bold font-montserrat text-[#FF30E3] scale-105 filter blur-sm ">
+        <div className="relative group ">
+          <h1 className="text-9xl group-hover:tracking-wide duration-200 ease-linear font-bold font-montserrat  text-[#FF30E3] filter blur-md absolute inset-0 scale-110 ">
             FOOT
           </h1>
-          <h1 className="text-9xl font-bold font-montserrat  text-white inset-0 absolute">
+          <h1 className="text-9xl group-hover:tracking-wide duration-200 ease-linear font-bold font-montserrat text-[#EC3015] scale-105 ">
+            FOOT
+          </h1>
+
+          <h1 className="text-9xl group-hover:tracking-tighter  duration-200 ease-linear font-bold font-montserrat  text-white inset-0 absolute">
             FOOT
           </h1>
         </div>
         <h2 className="font-bold text-[#EC3015]   text-end translate-x-36">
           WEAR
         </h2>
-        <div className="flex my-6 space-y-3 flex-col text-white font-sora  items-start z-10 justify-center">
+        <div className="flex my-6 space-y-3 flex-col text-[#EC3015] font-montserrat  items-start z-10 justify-center">
           <h1 className="font-bold ">KEEP WALKING</h1>
           <p className="text-xs font-semibold font-montserrat">
             100% Trusted Products
@@ -89,25 +93,28 @@ const HeroSection = () => {
       <div className="absolute  hidden  inset-0 bg-white rounded-full top-56 left-20 filter animate-blob blur-3xl   w-[200px] h-[200px]"></div>
       <div className="absolute  hidden inset-0 bg-purple-600/50 animate-blob rounded-full top-56 left-[150px] filter blur-3xl   w-[200px] h-[200px]"></div>
       <div className="absolute hidden  inset-0 bg-white/70 rounded-full animate-blob top-[400px] left-20 filter blur-3xl   w-[200px] h-[200px]"></div>
-      <div className="relative font-sora shadow-md shadow-[#EC3015]/5 bg-white/10 md:hidden backdrop-blur-xl  w-[320px] h-[500px] mx-4 rounded-xl flex  flex-col items-center justify-center">
+      <div className="relative font-montserrat shadow-md shadow-[#EC3015]/5 bg-white/10 md:hidden backdrop-blur-xl  w-[320px] h-[500px] mx-4 rounded-xl flex  flex-col items-center justify-center">
         <img
           src={niketnairmax}
           alt="niketnairmax"
           className="-rotate-0 absolute inset-0 w-[300px]  -top-40 z-20"
         />
-        <h2 className="font-black text-[#EC3015]  -translate-x-20">SMASHY</h2>
-        <div className="relative">
-          <h1 className="text-8xl font-bold font-montserrat text-[#FF30E3] filter blur-sm ">
+        <h2 className="font-bold text-[#EC3015]  -translate-x-20">SMASHY</h2>
+        <div className="relative group">
+          <h1 className="text-8xl font-bold font-montserrat group-hover:tracking-wide duration-200 text-[#FF30E3] filter blur-sm absolute  scale-105 ">
             FOOT
           </h1>
-          <h1 className="text-8xl font-bold font-montserrat  text-white inset-0 absolute">
+          <h1 className="text-8xl font-bold font-montserrat  group-hover:tracking-wide duration-200  text-[#EC3015]  inset-0 scale-105 ">
+            FOOT
+          </h1>
+          <h1 className="text-8xl font-bold font-montserrat  group-hover:tracking-tight  duration-200 ease-linear  text-white inset-0 absolute">
             FOOT
           </h1>
         </div>
         <h2 className="font-bold text-[#EC3015]   text-end translate-x-20 ">
           WEAR
         </h2>
-        <div className="flex my-6 space-y-3 flex-col text-white font-sora  items-start z-10 justify-center">
+        <div className="flex my-6 space-y-3 flex-col text-[#EC3015] font-montserrat  items-start z-10 justify-center">
           <h1 className="font-bold ">KEEP WALKING</h1>
           <p className="text-xs font-semibold font-montserrat">
             100% Trusted Products

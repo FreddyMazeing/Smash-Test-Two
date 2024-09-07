@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 import whatsup from "../assets/whatsup.png";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -12,7 +13,7 @@ const NavBar = () => {
     <nav className="sticky  realtive font-montserrat   backdrop-blur-sm top-0 z-20 bg-[#FF30E3]/80 ">
       <div className=" flex items-center justify-between mx-4 md:mx-8 py-8  md:py-4">
         {/* Smashy Logo */}
-        <h1 className="text-xl font-semibold  text-[#EC3015] hover:text-[#FF30E3] duration-200 ease-in-out cursor-pointer">
+        <h1 className="text-xl font-semibold  hover:text-[#EC3015]  text-white duration-200 ease-in-out cursor-pointer">
           Shashy
         </h1>
         {/*Desktop Nav Items */}
@@ -20,9 +21,14 @@ const NavBar = () => {
           <li className="hover:text-[#EC3015] cursor-pointer duration-200 ease-in-out">
             Home
           </li>
-          <li className="hover:text-[#EC3015] cursor-pointer duration-200 ease-in-out">
+          <Link
+            to="gallery"
+            smooth={true}
+            duration={100}
+            className="hover:text-[#EC3015] cursor-pointer duration-200 ease-in-out"
+          >
             Gallery
-          </li>
+          </Link>
           <li className="hover:text-[#EC3015] cursor-pointer duration-200 ease-in-out">
             Contact
           </li>
@@ -59,9 +65,14 @@ const NavBar = () => {
             <li className="hover:text-[#EC3015] cursor-pointer duration-200 ease-in-out">
               Home
             </li>
-            <li className="hover:text-[#EC3015] cursor-pointer duration-200 ease-in-out">
+            <Link
+              to="gallery"
+              smooth={true}
+              duration={100}
+              className="hover:text-[#EC3015] cursor-pointer duration-200 ease-in-out"
+            >
               Gallery
-            </li>
+            </Link>
             <li className="hover:text-[#EC3015] cursor-pointer duration-200 ease-in-out">
               Contact
             </li>
