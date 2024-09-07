@@ -7,7 +7,7 @@ const Gallery = () => {
   const [clicked, setClicked] = useState(false);
   return (
     <div className="max-w-full min-h-screen bg-white ">
-      <div className="flex max-w-full flex-col mx-4 items-center justify-center ">
+      <div className="flex  max-w-full flex-col mx-4 items-center justify-center ">
         <h1 className="md:text-5xl text-4xl font-bold font-sora text-[#FF30E3] uppercase text-center ">
           smashy footware
         </h1>
