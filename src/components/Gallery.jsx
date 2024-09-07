@@ -181,101 +181,107 @@ const Gallery = () => {
           </div>
         </div>
 
-        {/* Repusen ELEMENT */}
-        <div className="max-w-[320px] md:max-w-full flex rounded-t-3xl flex-col items-center py-4 px-2 justify-center my-36">
-          <div className="bg-[#FF30E3] grid grid-rows-2 gap-48 p-2   rounded-t-lg rounded-b-full ">
-            <div className="  flex flex-col justify-center items-center px-4 py-4  space-y-3">
-              <h1 className="text-4xl font-bold  uppercase text-white">
-                repusen
-              </h1>
-              <h1 className="text-lg mb-10 -translate-y-3 font-bold uppercase text-[#EC3015]">
-                sneakers
-              </h1>
-              <div className="grid grid-cols-5  items-center gap-2 ">
-                <div className="text-center text-[#EC3015] font-bold">3</div>
-                <div className="py-1 px-1 bg-white"></div>
-                <h3 className="font-light text-white text-sm">SIZES</h3>
-                <div className="py-1 px-1 bg-white"></div>
-                <div className="text-center text-[#EC3015] font-bold">4</div>
+        {/* Grid */}
+        <div className="grid md:grid-cols-2 my-48 gap-28 md:items-end items-center justify-center max-w-full md:space-y-46">
+          {/* Repusen ELEMENT */}
+          <div className="max-w-[320px] md:max-w-full flex  flex-col items-center py-4 px-2 justify-center ">
+            <div className="bg-[#FF30E3] grid grid-rows-2 gap-28 md:gap-20 p-2   rounded-3xl ">
+              <div className="  flex flex-col justify-center items-center px-4 py-4  space-y-3">
+                <h1 className="text-4xl font-bold  uppercase text-white">
+                  repusen
+                </h1>
+                <h1 className="text-lg mb-10 -translate-y-3 font-bold uppercase text-[#EC3015]">
+                  sneakers
+                </h1>
+                <div className="grid grid-cols-5  items-center gap-2 ">
+                  <div className="text-center text-[#EC3015] font-bold">3</div>
+                  <div className="py-1 px-1 bg-white"></div>
+                  <h3 className="font-light text-white text-sm">SIZES</h3>
+                  <div className="py-1 px-1 bg-white"></div>
+                  <div className="text-center text-[#EC3015] font-bold">4</div>
+                </div>
+                <h1 className="text-xs text-white">3 - 8</h1>
               </div>
-              <h1 className="text-xs text-white">3 - 8</h1>
-            </div>
 
-            {/* Second Part of Grid */}
-            <div className="relative flex items-center justify-center bg-white rounded-full border-8 border-[#EC3015]">
-              <div className="bg-white/10 z-10 text-lg shadow-md -translate-y-10 shadow-black/10 text-white font-bold px-4 py-2 rounded-full backdrop-blur-md text-center">
-                <h1>SMASHY</h1>
+              {/* Second Part of Grid */}
+              <div className="relative flex items-center justify-center bg-white rounded-full border-8 border-[#EC3015]">
+                <div className="bg-white/10 z-10 text-lg shadow-md -translate-y-10 shadow-black/10 text-white font-bold px-4 py-2 rounded-full backdrop-blur-md text-center">
+                  <h1>SMASHY</h1>
+                </div>
+                <img
+                  src={repusen3}
+                  alt="smashy4"
+                  className="absolute inset-0 -left-10 -top-24 w-32    md:w-44 hover:-translate-y-4 duration-300 ease-linear"
+                />
+                <img
+                  src={repusen2}
+                  alt="smashy4"
+                  className="absolute inset-0 left-28 md:w-44  w-32 -top-24 hover:-translate-y-4 duration-300 ease-linear "
+                />
+                <img
+                  src={smashy4}
+                  alt="smashy4"
+                  className="absolute inset-0 w-32 md:w-40 md:-top-32 -top-32 left-8 hover:translate-y-4 duration-300 ease-linear "
+                />
+                <img
+                  src={blackrepusen}
+                  alt="smashy4"
+                  className="absolute inset-0 top-8 -rotate-15 scale-125  hover:-translate-y-4 duration-300 ease-linear z-10"
+                />
               </div>
-              <img
-                src={repusen3}
-                alt="smashy4"
-                className="absolute inset-0 -left-20 -top-24  w-44 hover:-translate-y-4 duration-300 ease-linear"
-              />
-              <img
-                src={repusen2}
-                alt="smashy4"
-                className="absolute inset-0 left-28 w-44 -top-24 hover:-translate-y-4 duration-300 ease-linear "
-              />
-              <img
-                src={smashy4}
-                alt="smashy4"
-                className="absolute inset-0 w-44 -top-56 hover:translate-y-4 duration-300 ease-linear "
-              />
-              <img
-                src={blackrepusen}
-                alt="smashy4"
-                className="absolute inset-0 top-8 -rotate-15 scale-125  hover:-translate-y-4 duration-300 ease-linear z-10"
-              />
+            </div>
+            <h1 className="text-[#EC3015] mt-20 font-semibold uppercase text-sm">
+              Available in iv colors{" "}
+            </h1>
+            <div className="grid grid-cols-4 gap-2 items-center justify-center my-2 px-2 py-2">
+              <div className="py-2 px-4 rounded-full bg-black duration-200 ease-in-out hover:translate-y-2"></div>
+              <div className="py-2 px-4 rounded-full bg-blue-300 duration-200 ease-in-out hover:-translate-y-2"></div>
+              <div className="py-2 px-4 rounded-full bg-yellow-200 duration-200 ease-in-out hover:translate-y-2"></div>
+              <div className="py-2 px-4 rounded-full bg-white border border-[#FF30E3] duration-200 ease-in-out hover:-translate-y-2"></div>
             </div>
           </div>
-          <h1 className="text-[#EC3015] mt-20 font-semibold uppercase text-sm">
-            Available in iv colors{" "}
-          </h1>
-          <div className="grid grid-cols-4 gap-2 items-center justify-center my-2 px-2 py-2">
-            <div className="py-2 px-4 rounded-full bg-black duration-200 ease-in-out hover:translate-y-2"></div>
-            <div className="py-2 px-4 rounded-full bg-blue-300 duration-200 ease-in-out hover:-translate-y-2"></div>
-            <div className="py-2 px-4 rounded-full bg-yellow-200 duration-200 ease-in-out hover:translate-y-2"></div>
-            <div className="py-2 px-4 rounded-full bg-white border border-[#FF30E3] duration-200 ease-in-out hover:-translate-y-2"></div>
-          </div>
-        </div>
 
-        {/*Order Now Smashy */}
-        <div className="relative w-[320px] md:max-w-full  flex items-center justify-center mb-20">
-          <img
-            src={smashy3}
-            alt="smashyartboard"
-            className="absolute inset-0 -left-2 "
-          />
-          <img
-            src={ordernow}
-            alt="smashyartboard"
-            className="absolute inset-0 w-32 -translate-y-10 translate-x-2  -left-2 "
-          />
-          <h1 className="absolute inset-0 text-[#EC3015] font-bold left-8 -top-6 ">
-            Order <br /> <span className="text-xl">Now!!</span>
-          </h1>
-          <img
-            src={smashyartboard}
-            alt="smashyartboard"
-            className="absolute inset-0 left-48  shadow-md shadow-[#FF30E3]/20 backdrop-blur-sm    rounded-full"
-          />
-          <img
-            src={nikeairuntempo}
-            alt="smashyartboard"
-            className="absolute inset-0 top-96 -left-4   "
-          />
-          <div className=" absolute inset-0 top-[600px] grid grid-cols-2 gap-4 bg-[#FF30E3]/10 shadow-md shadow-black/20 px-4 h-[100px] justify-center  rounded-2xl items-center">
-            <div className="flex flex-col space-y-1 ">
-              <h1 className="font-bold text-[#FF30E3]"> nike air untempo</h1>
-              <h1 className="font-light text-[#EC3015]">sizes: 2-10</h1>
-              <h1 className="font-light text-[#EC3015]">limited color</h1>
-            </div>
-            <div className="flex flex-col space-y-1 items-center">
-              <h1 className="font-bold text-[#FF30E3] uppercase ">Purchase </h1>
-              <h1 className="font-light text-[#EC3015]  uppercase">Today</h1>
-              <button className="bg-white text-[#EC3015] font-bold text-xl rounded-full px-6 py-1">
-                Order
-              </button>
+          {/*Order Now Smashy */}
+          <div className="relative w-[320px] md:max-w-full  flex items-center justify-center mb-20">
+            <img
+              src={ordernow}
+              alt="smashyartboard"
+              className="absolute inset-0 w-24 md:w-28 -translate-y-10 translate-x-2  left-4 "
+            />
+            <img
+              src={smashy3}
+              alt="smashyartboard"
+              className="absolute inset-0 left-8 w-48 md:w-60  "
+            />
+
+            <h1 className="absolute inset-0 text-[#EC3015] font-bold left-12 md:left-14 -top-8 md:-top-6 ">
+              Order <br /> <span className="text-xl">Now!!</span>
+            </h1>
+            <img
+              src={smashyartboard}
+              alt="smashyartboard"
+              className="absolute inset-0 md:-top-20 w-20 left-48 md:w-24"
+            />
+            <img
+              src={nikeairuntempo}
+              alt="smashyartboard"
+              className="absolute inset-0 top-64 left-6 md:top-64 md:-left-4 md:w-48  w-48 "
+            />
+            <div className=" absolute inset-0 top-96 md:top-96 grid grid-cols-2 gap-4 bg-[#FF30E3]/10 shadow-md shadow-black/20 px-4 h-[100px]  justify-center  rounded-2xl items-center">
+              <div className="flex flex-col space-y-1 ">
+                <h1 className="font-bold text-[#FF30E3]"> nike air untempo</h1>
+                <h1 className="font-light text-[#EC3015]">sizes: 2-10</h1>
+                <h1 className="font-light text-[#EC3015]">limited color</h1>
+              </div>
+              <div className="flex flex-col space-y-1 items-center">
+                <h1 className="font-bold text-[#FF30E3] uppercase ">
+                  Purchase{" "}
+                </h1>
+                <h1 className="font-light text-[#EC3015]  uppercase">Today</h1>
+                <button className="bg-white text-[#EC3015] font-bold text-xl rounded-full px-6 py-1">
+                  Order
+                </button>
+              </div>
             </div>
           </div>
         </div>
