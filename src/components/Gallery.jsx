@@ -91,7 +91,7 @@ const Gallery = () => {
             <img
               src={cleanairmax}
               alt="niketnairmax"
-              className=" absolute inset-0 md:hover:scale-110 duration-200 ease-in-out hover:contrast-125  md:w-5/6 w-[210px] md:-top-0 top-5 -left-2  md:-left-80"
+              className=" absolute inset-0 md:hover:scale-110 duration-200 ease-in-out hover:contrast-125  md:w-5/6 w-[200px] md:-top-0 top-5 -left-0  md:-left-80"
             />
             <div></div>
             <div className="flex text-white md:px-8 md:py-8 shadow-md shadow-black/10  bg-white/10 p-2 rounded-md backdrop-blur-md text-xs flex-col space-y-1 translate-x-6 md:space-y-3">
@@ -188,19 +188,19 @@ const Gallery = () => {
               src={niketnairmaxbrown}
               alt="niketnairmaxbrown"
               className=" absolute inset-0 md:hover:scale-110 duration-200 ease-in-out
-               hover:contrast-125 md:w-[400px] w-[210px] md:-top-16 top-1 -left-9  md:-left-40"
+               hover:contrast-125 md:w-[400px] w-[200px] md:-top-16 -top-3op-5 -left-2  md:-left-40"
             />
             <img
               src={niketnairmaxblack}
               alt="niketnairmaxblack"
               className=" absolute inset-0 md:hover:scale-110 duration-200 ease-in-out 
-                md:w-[400px] w-[230px] md:top-16 top-24 left-24  md:left-72"
+                md:w-[400px] w-[200px] md:top-16 top-28 left-24  md:left-72"
             />
           </div>
         </div>
 
         {/* Grid */}
-        <div className="grid md:grid-cols-2 my-48 gap-28  items-center justify-center max-w-full ">
+        <div className="grid md:grid-cols-2 max-w-[320px] my-48 gap-28  items-center justify-center md:max-w-full ">
           {/* Repusen ELEMENT */}
           <div className="max-w-[320px] md:max-w-full flex  flex-col items-center py-4 px-2 justify-center ">
             <div className=" relative bg-[#FF30E3] grid grid-rows-2 gap-28 md:gap-20 p-2   rounded-3xl ">
@@ -236,22 +236,22 @@ const Gallery = () => {
                 <img
                   src={repusen3}
                   alt="smashy4"
-                  className="absolute inset-0 -left-10 -top-24 w-32    md:w-44 hover:-translate-y-4 duration-300 ease-linear"
+                  className="absolute inset-0 md:-left-10  -left-4 -top-24 w-32    md:w-44 hover:-translate-y-4 duration-300 ease-linear"
                 />
                 <img
                   src={repusen2}
                   alt="smashy4"
-                  className="absolute inset-0 left-28 md:w-44  w-32 -top-24 hover:-translate-y-4 duration-300 ease-linear "
+                  className="absolute inset-0 md:left-28 left-36 md:w-44  w-32 -top-24 hover:-translate-y-4 duration-300 ease-linear "
                 />
                 <img
                   src={smashy4}
                   alt="smashy4"
-                  className="absolute inset-0 w-32 md:w-40 md:-top-32 -top-32 left-8 hover:translate-y-4 duration-300 ease-linear "
+                  className="absolute inset-0 w-32 md:w-40 md:-top-32 -top-32 md:left-8 left-14 hover:translate-y-4 duration-300 ease-linear "
                 />
                 <img
                   src={blackrepusen}
                   alt="smashy4"
-                  className="absolute inset-0 top-8  md:top-14 -rotate-15 scale-125   hover:-translate-y-4 duration-300 ease-linear z-10"
+                  className="absolute inset-0 top-8  md:top-14 md:-rotate-15 md:scale-125 md:left-0 -left-6 hover:-translate-y-4 duration-300 ease-linear z-10"
                 />
               </div>
             </div>
