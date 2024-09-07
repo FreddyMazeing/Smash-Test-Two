@@ -71,7 +71,7 @@ const Gallery = () => {
         </div>
 
         {/*Nike TN AIR CREAM  */}
-        <div className="flex max-w-[340px] items-center my-20 justify-center">
+        <div className="flex max-w-[340px]  md:max-w-full items-center my-20 justify-center">
           <div className="relative grid grid-cols-2 text-white space-y-2 justify-center py-4 rounded-full pr-14 md:px-20 px-10 bg-[#FF30E3] ">
             <img
               src={niketnairmax2}
@@ -125,9 +125,9 @@ const Gallery = () => {
           </div>
         </div>
         {/*Nike TN AIR Black And Brown  */}
-        <div className="flex max-w-[320px] mx-2 items-center my-20 justify-center">
+        <div className="flex max-w-[320px]  md:max-w-full mx-2 items-center my-20 justify-center">
           <div className="relative  flex text-white space-y-2 justify-center items-start py-16  md:py-20 rounded-t-full rounded-br-full  md:px-40 px-10 bg-[#FF30E3] ">
-            <div className="absolute inset-0 left-4 -top-14 flex space-y-2 flex-col items-center  text-red-500  bg-white/10 shadow-md shadow-black/10 rounded-3xl backdrop-blur-sm justify-center w-[200px] h-[100px]">
+            <div className="absolute inset-0 left-4 md:left-80 -top-14 flex space-y-2 flex-col items-center  text-red-500  bg-white/10 shadow-md shadow-black/10 rounded-3xl backdrop-blur-sm justify-center w-[200px] h-[100px]">
               <h1 className="text-[#FF30E3] font-bold">PURCHASE</h1>
               <h2 className="text-[#EC3015] font-light text-sm">TODAY</h2>
               <button
@@ -137,7 +137,7 @@ const Gallery = () => {
                 Order
                 {clicked && (
                   <div
-                    className="absolute transition-opacity duration-1000 space-y-2  left-20  -top-10  py-4 bg-[#FF30E3]/80
+                    className="absolute transition-opacity duration-1000 space-y-2  left-20  md:-top-10 -top-16  py-4 bg-[#FF30E3]/80
                       items-center justify-center rounded-full flex flex-col"
                   >
                     <a href="whatsapp://send?phone=+27815218030">
