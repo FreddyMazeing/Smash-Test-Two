@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import { MdAddShoppingCart } from "react-icons/md";
 import whatsup from "../assets/whatsup.png";
 import phone from "../assets/phone.png";
+import niketnairmax2 from "../assets/niketnairmax2.png";
+import niketnairmaxblack from "../assets/niketnairmaxblack.png";
+import niketnairmaxbrown from "../assets/niketnairmaxbrown.png";
+import { TbPointFilled } from "react-icons/tb";
+import { HiOutlineMinus } from "react-icons/hi2";
 
 const Gallery = () => {
   const [clicked, setClicked] = useState(false);
@@ -25,8 +30,8 @@ const Gallery = () => {
           EXPLORE OUR RANGE AND FIND YOUR PERFECT PAIR TODAY.
         </p>
 
-        {/* The Gallery Component */}
-        <div className="flex  rounded-full  ease-linear items-center space-x-6 justify-end  shadow-sm shadow-black/20 ">
+        {/* Nike TN  AIR MAX */}
+        <div className="flex   rounded-full  ease-linear items-center space-x-6 justify-end  shadow-sm shadow-black/20 ">
           <h1 className="uppercase font-semibold text-[#FF30E3] pl-6 text-xs md:text-sm ">
             the Gallery
           </h1>
@@ -47,17 +52,124 @@ const Gallery = () => {
                       <img
                         src={whatsup}
                         alt="WhatsApp Smashy"
-                        className="w-8"
+                        className="w-8 hover:-translate-y-1 duration-200 ease-linear"
                       />
                     </a>
 
                     <a href="tel: +27 81 521 8030">
-                      <img src={phone} alt="Call Smashy" className="w-8" />
+                      <img
+                        src={phone}
+                        alt="Call Smashy"
+                        className="w-8 hover:-translate-y-1 duration-200 ease-linear"
+                      />
                     </a>
                   </div>
                 )}
               </div>
             </div>
+          </div>
+        </div>
+
+        {/*Nike TN AIrz  */}
+        <div className="flex  mx-2 items-center my-20 justify-center">
+          <div className="relative grid grid-cols-2 text-white space-y-2 justify-center py-4 rounded-full pr-14 md:px-20 px-10 bg-[#FF30E3] ">
+            <img
+              src={niketnairmax2}
+              alt="niketnairmax"
+              className=" absolute inset-0  md:w-full w-[210px] md:-top-36 -top-10 -left-3  md:-left-52"
+            />
+            <div></div>
+            <div className="flex  text-xs flex-col space-y-1 translate-x-4 md:space-y-3">
+              <h1 className="font-bold ">NIKE TN AIR MAX +(plus)</h1>
+              <h2 className="font-bold text-xs">AVAILABLE IN-SIZES</h2>
+              <div className="flex items-center space-x-1">
+                <TbPointFilled className="text-[#EC3015]" />
+                <h3 className=" font-extralight text-xs md:text-sm">2 TO 9</h3>
+              </div>
+              <div className="flex space-x-1 items-center">
+                <HiOutlineMinus />
+                <h2 className="font-extralight text-xs md:text-sm">
+                  LIMITED COLORS
+                </h2>
+                <HiOutlineMinus />
+              </div>
+              <button
+                onClick={() => setClicked((prev) => !prev)}
+                className="bg-white font-bold px-10 py-1 text-[#EC3015] rounded-full text-center"
+              >
+                Order
+                {clicked && (
+                  <div
+                    className="absolute transition-opacity duration-1000 space-y-2  left-16  -top-0  py-4 bg-[#FF30E3]/10 backdrop-blur-sm
+                      items-center justify-center rounded-full flex flex-col"
+                  >
+                    <a href="whatsapp://send?phone=+27815218030">
+                      <img
+                        src={whatsup}
+                        alt="WhatsApp Smashy"
+                        className="w-8 hover:-translate-y-1 duration-200 ease-linear"
+                      />
+                    </a>
+
+                    <a href="tel: +27 81 521 8030">
+                      <img
+                        src={phone}
+                        alt="Call Smashy"
+                        className="w-8 hover:-translate-y-1 duration-200 ease-linear"
+                      />
+                    </a>
+                  </div>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+        {/*Nike TN AIR Black And Brown  */}
+        <div className="flex  mx-2 items-center my-20 justify-center">
+          <div className="relative  flex text-white space-y-2 justify-center items-start py-16  md:py-20 rounded-t-full rounded-br-full  md:px-40 px-10 bg-[#FF30E3] ">
+            <div className="absolute inset-0 left-4 -top-14 flex space-y-2 flex-col items-center  text-red-500  bg-white/10 shadow-md shadow-black/10 rounded-3xl backdrop-blur-sm justify-center w-[200px] h-[100px]">
+              <h1 className="text-[#FF30E3] font-bold">PURCHASE</h1>
+              <h2 className="text-[#EC3015] font-light text-sm">TODAY</h2>
+              <button
+                onClick={() => setClicked((prev) => !prev)}
+                className="bg-white px-6 cursor-pointer z-10 font-bold rounded-full flex items-center justify-center"
+              >
+                Order
+                {clicked && (
+                  <div
+                    className="absolute transition-opacity duration-1000 space-y-2  left-20  -top-10  py-4 bg-[#FF30E3]/80
+                      items-center justify-center rounded-full flex flex-col"
+                  >
+                    <a href="whatsapp://send?phone=+27815218030">
+                      <img
+                        src={whatsup}
+                        alt="WhatsApp Smashy"
+                        className="w-8 hover:-translate-y-1 duration-200 ease-linear"
+                      />
+                    </a>
+
+                    <a href="tel: +27 81 521 8030">
+                      <img
+                        src={phone}
+                        alt="Call Smashy"
+                        className="w-8 hover:-translate-y-1 duration-200 ease-linear"
+                      />
+                    </a>
+                  </div>
+                )}
+              </button>
+            </div>
+            <h1 className="font-bold ">NIKE TN AIR MAX +(plus)</h1>
+            <img
+              src={niketnairmaxbrown}
+              alt="niketnairmaxbrown"
+              className=" absolute inset-0  md:w-2/3 w-[210px] md:-top-16 top-1 -left-12  md:-left-16"
+            />
+            <img
+              src={niketnairmaxblack}
+              alt="niketnairmaxblack"
+              className=" absolute inset-0  md:w-2/3 w-[230px] md:top-16 top-24 left-24  md:left-52"
+            />
           </div>
         </div>
       </div>
@@ -66,3 +178,6 @@ const Gallery = () => {
 };
 
 export default Gallery;
+/*
+
+ */

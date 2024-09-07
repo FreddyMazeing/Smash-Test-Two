@@ -41,21 +41,19 @@ const HeroSection = () => {
           className="absolute hover:scale-110 duration-100 ease-in-out  w-1/3  inset-0 left-[750px]  top-60 "
         />
 
-        <h2 className="font-black text-[#EC3015] italic -translate-x-36 ">
-          SMASHY
-        </h2>
+        <h2 className="font-black text-[#EC3015]  -translate-x-36 ">SMASHY</h2>
         <div className="relative">
-          <h1 className="text-9xl font-bold italic text-[#FF30E3] scale-105 filter blur-sm ">
+          <h1 className="text-9xl font-bold font-montserrat text-[#FF30E3] scale-105 filter blur-sm ">
             FOOT
           </h1>
-          <h1 className="text-9xl font-bold italic  text-white inset-0 absolute">
+          <h1 className="text-9xl font-bold font-montserrat  text-white inset-0 absolute">
             FOOT
           </h1>
         </div>
-        <h2 className="font-bold text-[#EC3015]  italic text-end translate-x-36">
+        <h2 className="font-bold text-[#EC3015]   text-end translate-x-36">
           WEAR
         </h2>
-        <div className="flex my-6 space-y-3 flex-col text-[#FF30E3]  items-start z-10 justify-center">
+        <div className="flex my-6 space-y-3 flex-col text-white font-sora  items-start z-10 justify-center">
           <h1 className="font-bold ">KEEP WALKING</h1>
           <p className="text-xs font-semibold font-montserrat">
             100% Trusted Products
@@ -97,21 +95,19 @@ const HeroSection = () => {
           alt="niketnairmax"
           className="-rotate-0 absolute inset-0 w-[300px]  -top-40 z-20"
         />
-        <h2 className="font-black text-[#EC3015] italic -translate-x-20">
-          SMASHY
-        </h2>
+        <h2 className="font-black text-[#EC3015]  -translate-x-20">SMASHY</h2>
         <div className="relative">
-          <h1 className="text-8xl font-bold italic text-[#FF30E3] filter blur-sm ">
+          <h1 className="text-8xl font-bold font-montserrat text-[#FF30E3] filter blur-sm ">
             FOOT
           </h1>
-          <h1 className="text-8xl font-bold italic  text-white inset-0 absolute">
+          <h1 className="text-8xl font-bold font-montserrat  text-white inset-0 absolute">
             FOOT
           </h1>
         </div>
-        <h2 className="font-bold text-[#EC3015]  italic text-end translate-x-20 ">
+        <h2 className="font-bold text-[#EC3015]   text-end translate-x-20 ">
           WEAR
         </h2>
-        <div className="flex my-6 space-y-3 flex-col text-[#FF30E3]  items-start z-10 justify-center">
+        <div className="flex my-6 space-y-3 flex-col text-white font-sora  items-start z-10 justify-center">
           <h1 className="font-bold ">KEEP WALKING</h1>
           <p className="text-xs font-semibold font-montserrat">
             100% Trusted Products
