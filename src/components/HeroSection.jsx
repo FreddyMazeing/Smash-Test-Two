@@ -6,7 +6,7 @@ import smashy3 from "../assets/smashy3.png";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import whatsup from "../assets/whatsup.png";
 import instagram from "../assets/instagram.png";
-import facebook from "../assets/facebook.png";
+import  facebook from "../assets/facebook.png";
 
 const HeroSection = () => {
   return (
