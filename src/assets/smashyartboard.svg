@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127" height="600" viewBox="0 0 127 600">
+  <defs>
+    <clipPath id="clip-Artboard_2">
+      <rect width="127" height="600"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_2" data-name="Artboard – 2" clip-path="url(#clip-Artboard_2)">
+    <g id="Group_76" data-name="Group 76" transform="translate(-250.577 -2950.717)">
+      <path id="Rectangle_18" data-name="Rectangle 18" d="M53.5,0h0A53.5,53.5,0,0,1,107,53.5v447A53.5,53.5,0,0,1,53.5,554H0a0,0,0,0,1,0,0V53.5A53.5,53.5,0,0,1,53.5,0Z" transform="translate(260.577 2973.717)" fill="#ff00b2"/>
+      <g id="Group_13" data-name="Group 13" transform="translate(342.107 3010.975)">
+        <g id="Group_12" data-name="Group 12" transform="translate(0 0)">
+          <text id="F" transform="translate(1.47 12.742)" fill="#ff00b2" font-size="13" font-family="Nexa-Heavy, Nexa" font-weight="800"><tspan x="0" y="0">F</tspan></text>
+          <text id="W" transform="translate(1.47 283.742)" fill="#ff00b2" font-size="13" font-family="Nexa-Heavy, Nexa" font-weight="800"><tspan x="0" y="0">W</tspan></text>
+          <text id="o" transform="translate(0.47 71.742)" fill="#ff00b2" font-size="12" font-family="Nexa-Heavy, Nexa" font-weight="800"><tspan x="0" y="0">O</tspan></text>
+          <text id="E" transform="translate(0.47 343.742)" fill="#ff00b2" font-size="12" font-family="Nexa-Heavy, Nexa" font-weight="800"><tspan x="0" y="0">E</tspan></text>
+          <text id="o-2" data-name="o" transform="translate(0.47 133.742)" fill="#ff00b2" font-size="12" font-family="Nexa-Heavy, Nexa" font-weight="800"><tspan x="0" y="0">O</tspan></text>
+          <text id="A" transform="translate(0.47 402.742)" fill="#ff00b2" font-size="12" font-family="Nexa-Heavy, Nexa" font-weight="800"><tspan x="0" y="0">A</tspan></text>
+          <text id="T" transform="translate(3.47 194.742)" fill="#ff00b2" font-size="13" font-family="Nexa-Heavy, Nexa" font-weight="800"><tspan x="0" y="0">T</tspan></text>
+        </g>
+        <text id="R" transform="translate(3.47 462.742)" fill="#ff00b2" font-size="11" font-family="Nexa-Heavy, Nexa" font-weight="800"><tspan x="0" y="0">R</tspan></text>
+      </g>
+      <g id="Group_11" data-name="Group 11" transform="translate(270.542 2991.891)">
+        <text id="S" transform="translate(8.035 67.826)" fill="#ec3015" font-size="68" font-family="Nexa-ExtraLight, Nexa" font-weight="200"><tspan x="0" y="0">S</tspan></text>
+        <text id="M" transform="translate(0.035 151.826)" fill="#ec3015" font-size="68" font-family="Nexa-ExtraLight, Nexa" font-weight="200"><tspan x="0" y="0">M</tspan></text>
+        <text id="A-2" data-name="A" transform="translate(6.035 232.826)" fill="#ec3015" font-size="68" font-family="Nexa-ExtraLight, Nexa" font-weight="200"><tspan x="0" y="0">A</tspan></text>
+        <text id="S-2" data-name="S" transform="translate(8.035 315.826)" fill="#ec3015" font-size="68" font-family="Nexa-ExtraLight, Nexa" font-weight="200"><tspan x="0" y="0">S</tspan></text>
+        <text id="H" transform="translate(5.035 398.826)" fill="#ec3015" font-size="68" font-family="Nexa-ExtraLight, Nexa" font-weight="200"><tspan x="0" y="0">H</tspan></text>
+        <text id="Y" transform="translate(8.035 481.826)" fill="#ec3015" font-size="68" font-family="Nexa-ExtraLight, Nexa" font-weight="200"><tspan x="0" y="0">Y</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

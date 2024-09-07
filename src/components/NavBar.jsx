@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
+import whatsup from "../assets/whatsup.png";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -8,7 +9,7 @@ const NavBar = () => {
     setOpen(!open);
   };
   return (
-    <nav className="sticky font-montserrat  backdrop-blur-lg top-0 z-20 bg-[#FF30E3]/80 ">
+    <nav className="sticky  realtive font-montserrat   backdrop-blur-lg top-0 z-20 bg-[#FF30E3]/80 ">
       <div className=" flex items-center justify-between mx-4 md:mx-8 py-8  md:py-4">
         {/* Smashy Logo */}
         <h1 className="text-xl font-semibold  text-[#EC3015] hover:text-[#FF30E3] duration-200 ease-in-out cursor-pointer">
@@ -37,6 +38,16 @@ const NavBar = () => {
             )}
           </button>
         </div>
+      </div>
+
+      <div className="absolute md:top-[650px] top-[800px] left-2 inset-0">
+        <a href="whatsapp://send?phone=+27815218030">
+          <img
+            src={whatsup}
+            alt=""
+            className="w-10 animate-pulse hover:cursor-pointer hover:scale-105 duration-200 ease-in-out "
+          />
+        </a>
       </div>
       {/* Mobile Screen Nav Items */}
       {open && (
