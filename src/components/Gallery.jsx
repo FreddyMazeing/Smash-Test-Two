@@ -45,12 +45,14 @@ const Gallery = () => {
 
         {/* THE GALLERY */}
         <div className="flex    rounded-full  ease-linear items-center space-x-6 justify-end  shadow-sm shadow-black/20 ">
-          <h1 className="uppercase font-semibold text-[#FF30E3] pl-6 text-xs md:text-sm ">
+          <h1 className="uppercase font-semibold text-[#FF30E3] pl-6 text-xxs md:text-sm ">
             the Gallery
           </h1>
           <div className="border-2 flex justify-end  border-[#FF30E3] text-white  pl-6  rounded-full">
             <div className="bg-[#EC3015] flex space-x-3  justify-end rounded-full items-center ">
-              <h1 className="text-xs md:text-sm font-thin px-3">ORDER YOURS</h1>
+              <h1 className="text-xxs md:text-sm font-thin px-3">
+                ORDER YOURS
+              </h1>
               <div className="px-4 rounded-full relative flex flex-col  bg-[#FF30E3] text-sm py-2 ">
                 <MdAddShoppingCart
                   onClick={() => setClicked((prev) => !prev)}
@@ -89,22 +91,22 @@ const Gallery = () => {
             <img
               src={cleanairmax}
               alt="niketnairmax"
-              className=" absolute inset-0 md:hover:scale-110 duration-200 ease-in-out hover:contrast-125  md:w-full w-[210px] md:-top-14 top-5 -left-6  md:-left-80"
+              className=" absolute inset-0 md:hover:scale-110 duration-200 ease-in-out hover:contrast-125  md:w-5/6 w-[210px] md:-top-0 top-5 -left-2  md:-left-80"
             />
             <div></div>
-            <div className="flex  text-xs flex-col space-y-1 translate-x-6 md:space-y-3">
+            <div className="flex text-white md:px-8 md:py-8 shadow-md shadow-black/10  bg-white/10 p-2 rounded-md backdrop-blur-md text-xs flex-col space-y-1 translate-x-6 md:space-y-3">
               <h1 className="font-bold ">NIKE TN AIR MAX +(plus)</h1>
               <h2 className="font-bold text-xxs">AVAILABLE IN-SIZES</h2>
               <div className="flex items-center space-x-1">
-                <TbPointFilled className="text-[#EC3015]" />
-                <h3 className=" font-extralight text-xs md:text-sm">2 TO 9</h3>
+                <TbPointFilled className="text-white" />
+                <h3 className=" font-extralight text-xs md:text-sm text-white">
+                  2 TO 9
+                </h3>
               </div>
-              <div className="flex space-x-1 items-center">
-                <HiOutlineMinus />
+              <div className="flex  text-white items-center">
                 <h2 className="font-extralight text-xxs md:text-sm">
                   LIMITED COLORS
                 </h2>
-                <HiOutlineMinus />
               </div>
               <button
                 onClick={() => setClicked((prev) => !prev)}

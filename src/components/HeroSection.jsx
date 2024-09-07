@@ -93,7 +93,7 @@ const HeroSection = () => {
       <div className="absolute  hidden  inset-0 bg-white rounded-full top-56 left-20 filter animate-blob blur-3xl   w-[200px] h-[200px]"></div>
       <div className="absolute  hidden inset-0 bg-purple-600/50 animate-blob rounded-full top-56 left-[150px] filter blur-3xl   w-[200px] h-[200px]"></div>
       <div className="absolute hidden  inset-0 bg-white/70 rounded-full animate-blob top-[400px] left-20 filter blur-3xl   w-[200px] h-[200px]"></div>
-      <div className="relative font-montserrat shadow-md shadow-[#EC3015]/5 bg-white/10 md:hidden backdrop-blur-xl  w-[320px] h-[500px] mx-4 rounded-xl flex  flex-col items-center justify-center">
+      <div className="relative font-montserrat shadow-md shadow-[#EC3015]/5 bg-white/10 md:hidden mt-28 backdrop-blur-xl  w-[320px] h-[500px] mx-4 rounded-xl flex  flex-col items-center justify-center">
         <img
           src={niketnairmax}
           alt="niketnairmax"
