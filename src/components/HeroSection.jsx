@@ -10,11 +10,11 @@ import facebook from "../assets/facebook.png";
 
 const HeroSection = () => {
   return (
-    <div className="  relative max-w-full min-h-screen font-montserrat flex-col flex items-center bg-gradient-to-b from-[#FF30E3]/80 to-white justify-center">
-      <div className="hidden   absolute inset-0 left-1/2 rounded-full h-[300px] w-[300px] animate-blob top-48 filter blur-3xl bg-[#FF30E3] "></div>
-      <div className="hidden  absolute inset-0 left-2/3 rounded-full h-[300px] w-[300px] animate-blob top-44 filter blur-3xl bg-[#FF30E3] opacity-50 "></div>
-      <div className="hidden  absolute inset-0 left-1/3 rounded-full anima animate-blob h-[300px] w-[300px] top-48 filter blur-3xl bg-white  "></div>
-      <div className="hidden relative shadow-md shadow-[#EC3015]/10  w-[1000px] font-montserrat py-10 rounded-xl md:flex flex-col items-center mt-20 justify-center mx-auto bg-white/10 backdrop-blur-3xl ">
+    <div className="  relative max-w-full min-h-screen font-montserrat flex-col flex items-center bg-gradient-to-b from-[#FF30E3]/40 to-white justify-center">
+      <div className=" hidden md:block  absolute inset-0 left-1/2 rounded-full h-[300px] w-[300px] animate-blob top-48 filter blur-3xl bg-[#FF30E3] "></div>
+      <div className=" hidden md:block absolute inset-0 left-2/3 rounded-full h-[300px] w-[300px] animate-blob top-44 filter blur-3xl bg-[#FF30E3] opacity-50 "></div>
+      <div className="hidden md:block  absolute inset-0 left-1/3 rounded-full anima animate-blob h-[300px] w-[300px] top-48 filter blur-3xl bg-[#FF30E3]/30  "></div>
+      <div className="hidden relative shadow-md shadow-[#FF30E3]/40  w-[1000px] font-montserrat py-10 rounded-xl md:flex flex-col items-center mt-20 justify-center mx-auto bg-white/10 backdrop-blur-3xl ">
         <img
           src={niketnairmax}
           alt="nike tn air max"
@@ -97,7 +97,7 @@ const HeroSection = () => {
         <img
           src={niketnairmax}
           alt="niketnairmax"
-          className="-rotate-0 absolute inset-0 w-[300px]  -top-40 z-20"
+          className="-rotate-0 absolute inset-0 w-[300px]  -top-32 z-20"
         />
         <h2 className="font-bold text-[#EC3015]  -translate-x-20">SMASHY</h2>
         <div className="relative group">
