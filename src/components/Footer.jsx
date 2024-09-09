@@ -241,7 +241,7 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <div className="relative flex items-center justify-center md:pb-0 pb-20 w-[320px] md:-translate-y-28 flex-col md:w-full h-[100px]  ">
+      <div className="relative flex items-center justify-center md:pb-0 pb-20 w-[320px] -translate-y-28 flex-col md:w-full h-[100px]  ">
         <img
           src={smashyfooter}
           alt=""
@@ -251,13 +251,13 @@ const Footer = () => {
           Smashy
         </h1>
         <div className="z-10 translate-y-72 bg-white/10 backdrop-blur-sm border border-[#FF30E3] py-2 px-6 rounded-xl max-w-[320px]  md:max-w-full flex flex-col justify-center items-center space-y-3">
-          <h1 className="md:px-96 uppercase text-center md:text-2xl font-bold text-white">
-            <span className="text-[#FF30E3]">thank you,</span>{" "}
-            <span className="md:text-white text-[#FF30E3]">our lovely</span>
-            <span className="text-[#FF30E3]"> customers</span>
+          <h1 className="md:px-96 uppercase text-center md:text-2xl font-bold text-[#EC3015]">
+            <span className="md:text-[#EC3015]">thank you,</span>{" "}
+            <span className="md:text-white ">our lovely</span>
+            <span className="md:text-[#EC3015]"> customers</span>
           </h1>
           <h1 className="text-[#EC3015] md:text-base text-xs font-semibold">
-            VISIT US AGAIN WE LOVE YOU!!
+            VISIT US AGAIN WE'D LOVE YOU SOON!!
           </h1>
           <div className="grid grid-cols-3 gap-4">
             <img

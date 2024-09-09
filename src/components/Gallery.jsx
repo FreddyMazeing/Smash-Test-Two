@@ -78,24 +78,28 @@ const Gallery = () => {
 
         {/*Nike TN AIR CREAM  */}
         <div className="flex max-w-[340px]  md:max-w-full items-center my-20 justify-center ">
-          <div className="relative grid grid-cols-2 text-white space-y-2 justify-center py-4 md:rounded-full rounded-3xl pr-14 md:px-20 px-10 bg-[#FF00B2] ">
+          <div className="relative grid grid-cols-2 text-white space-y-2 justify-center py-4 md:rounded-full rounded-3xl pr-14 md:px-20 px-10 bg-[#FF30E3] ">
             <img
               src={cleanairmax}
               alt="niketnairmax"
               className=" absolute inset-0 md:hover:translate-x-24 md:hover:scale-105 duration-200 ease-in-out hover:contrast-125  md:w-5/6 w-[200px] md:-top-0 top-5 -left-0  md:-left-80"
             />
             <div></div>
-            <div className="flex text-white md:px-8 md:py-8 shadow-md shadow-black/20  bg-[#EC3015]/20 p-2 text-center items-center rounded-md md:rounded-full backdrop-blur-md text-xs flex-col space-y-1 translate-x-6 md:space-y-3">
-              <h1 className="font-bold ">NIKE TN AIR MAX +(plus)</h1>
-              <h2 className="font-bold text-xxs">AVAILABLE IN-SIZES</h2>
+            <div className="flex text-white md:px-8 md:py-8 shadow-md shadow-black/20  bg-[#FF30E3]/10 p-2 text-center items-center rounded-md md:rounded-full backdrop-blur-sm text-xs flex-col space-y-1 translate-x-6 md:space-y-3">
+              <h1 className="font-bold  md:text-[#EC3015] ">
+                NIKE TN AIR MAX +(plus)
+              </h1>
+              <h2 className="font-bold text-xxs md:text-[#EC3015] ">
+                AVAILABLE IN-SIZES
+              </h2>
               <div className="flex items-center space-x-1">
-                <TbPointFilled className="text-white" />
-                <h3 className=" font-extralight text-xs md:text-sm text-white">
+                <TbPointFilled className="text-white md:text-[#EC3015] " />
+                <h3 className="  md:text-[#EC3015] font-extralight text-xs md:text-sm text-white">
                   2 TO 9
                 </h3>
               </div>
               <div className="flex  text-white items-center">
-                <h2 className="font-extralight text-xxs md:text-sm">
+                <h2 className="font-extralight  text-xxs md:text-sm">
                   LIMITED COLORS
                 </h2>
               </div>
@@ -132,7 +136,7 @@ const Gallery = () => {
         </div>
         {/*Nike TN AIR Black And Brown  */}
         <div className="flex max-w-[320px]  md:max-w-full mx-2 items-center my-20 justify-center">
-          <div className="relative  flex text-white space-y-2 justify-center items-start py-16  md:py-20 rounded-3xl   md:px-40 px-10 bg-[#FF00B2] ">
+          <div className="relative  flex text-white space-y-2 justify-center items-start py-16  md:py-20 rounded-3xl md:rounded-full   md:px-40 px-10 bg-[#FF30E3] ">
             <div
               className="absolute md:hover:scale-110 duration-300 ease-in-out inset-0 left-12 
             md:left-[350px] -top-14 flex space-y-2 flex-col items-center  text-red-500 
@@ -169,7 +173,7 @@ const Gallery = () => {
                 )}
               </button>
             </div>
-            <div className="absolute hidden md:flex md:hover:scale-110 duration-300 ease-in-out inset-0  -left-10 -top-14  space-y-2 flex-col items-center    bg-gradient-to-r from-[#FF30E3]/20 via-white/40  animate-bounce to-[#FF30E3]/10 shadow-md shadow-black/10 rounded-full backdrop-blur-sm justify-center w-[100px] h-[100px]">
+            <div className="absolute hidden md:flex md:hover:scale-110 duration-300 ease-in-out inset-0  left-10 -top-[106px]  space-y-2 flex-col items-center    bg-gradient-to-r from-[#FF30E3]/20 via-white/40  animate-bounce to-[#FF30E3]/10 shadow-md shadow-black/10 rounded-full backdrop-blur-sm justify-center w-[100px] h-[100px]">
               <h1 className="font-bold text-[#EC3015] font-montserrat">
                 Specials
               </h1>
