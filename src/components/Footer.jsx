@@ -14,7 +14,11 @@ import untempohand from "../assets/untempohand.png";
 import untempo from "../assets/untempo.png";
 import smashyartboard from "../assets/smashyartboard.png";
 import ordernow from "../assets/ordernow.png";
-import circle from "../assets/circle.png";
+import smashyfooter from "../assets/smashyfooter.png";
+import circle2 from "../assets/circle2.png";
+import whatsup from "../assets/whatsup.png";
+import instagram from "../assets/instagram.png";
+import facebook from "../assets/facebook.png";
 
 const Footer = () => {
   return (
@@ -113,7 +117,7 @@ const Footer = () => {
               alt="smashyartboard"
               className="absolute md:hover:scale-110 duration-300 ease-in-out  inset-0 top-64 left-6 md:top-64 md:-left-4 md:w-48  w-48 "
             />
-            <div className=" absolute inset-0 top-96 md:top-96 grid grid-cols-2 gap-4 bg-[#FF30E3]/10 shadow-md shadow-black/20 px-4 h-[100px]  justify-center  rounded-2xl items-center">
+            <div className=" absolute inset-0 top-96 md:top-96 grid grid-cols-2 gap-4 bg-[#FF30E3]/10 shadow-md shadow-black/10 px-4 h-[100px]  justify-center  rounded-2xl items-center">
               <div className="flex flex-col space-y-1 ">
                 <h1 className="font-bold text-[#FF30E3]"> nike air untempo</h1>
                 <h1 className="font-light text-[#EC3015] text-xs">
@@ -140,81 +144,138 @@ const Footer = () => {
       </div>
 
       {/* Choose Yours */}
-      <div className="flex flex-col space-y-3 translate-y-48 items-center justify-center md:max-w-full min-h-screen max-w-[320px] my-10">
-        <h1 className="text-4xl text-[#EC3015]  uppercase font-bold text-center">
+      <div className="flex flex-col space-y-3 translate-y-56 md:translate-y-0 items-center justify-center md:max-w-full min-h-screen max-w-[320px] my-10">
+        <h1 className="text-3xl text-[#EC3015]  uppercase font-bold text-center">
           CHOOSE YOURS
         </h1>
-        <h1 className="text-2xl text-[#FF30E3] font-light text-center">
+        <h1 className="text-xl text-[#FF30E3] font-light text-center">
           WALK IN STYLE
         </h1>
         <p className="text-[#EC3015] font-bold uppercase text-xxs  ">
           we have all your{" "}
           <span className="text-xs font-light"> FAVOURITES</span>
         </p>
-        <div className=" lowercase relative max-w-[#320]  md:max-h-full min-h-screen   translate-y-40  p-12">
-          <img src={circle} alt="circle" className="absolute inset-0 -top-5" />
+        <div className=" lowercase relative max-w-[#320]  md:w-full md:h-screen min-h-screen   translate-y-40  p-12 md:p-0">
+          <img
+            src={circle2}
+            alt="circle"
+            className="absolute inset-0 md:left-2  -top-5 md:w-full "
+          />
 
           {/* Untempo white */}
-          <div className=" absolute inset-0 left-28 h-[100px] w-[130px] -top-28 text-xs flex flex-col p-1  space-y-2 items-center justify-center border-[#FF30E3] border-2 rounded-3xl">
+          <div className=" absolute inset-0 left-28 md:left-60 h-[100px] md:w-[200px] w-[130px] -top-28 text-xs flex flex-col p-1  space-y-2 items-center justify-center border-[#FF30E3] border-2 rounded-3xl">
             <h1 className="font-bold text-[#EC3015]">nike air untempo</h1>
-            <h1 className="font-light text-[#FF30E3]">sizes: 2-10</h1>
-            <h1 className="font-light text-[#FF30E3]">limited colors</h1>
+            <h1 className="font-light text-[#FF30E3]  text-xxs md:text-xs">
+              sizes: 2-10
+            </h1>
+            <h1 className="font-light text-[#FF30E3]  text-xxs md:text-xs">
+              limited colors
+            </h1>
           </div>
           {/* Untempo white */}
           <img
             src={nikeairuntempocopy}
             alt="nikeairuntempo"
-            className="absolute inset-0 w-24  left-28 -top-6 "
+            className="absolute duration-300 ease-in-out md:hover:-rotate-12 hover:contrast-125 md:hover:scale-105 inset-0 w-24 md:w-36  md:left-48 left-28 -top-6 md:-top-20 "
           />
           {/* Ji Xian sneakers
            */}
-          <div className=" absolute inset-0 left-28 h-[100px] w-[130px] top-40 text-xs flex flex-col p-1  space-y-2 items-center justify-center border-[#FF30E3] border-2 rounded-3xl">
+          <div className=" absolute inset-0 left-28 md:left-80 h-[100px] w-[130px] md:w-[200px] md:top-20 top-40 text-xs  md:text-lg flex flex-col p-1 md:space-y-1 space-y-2 items-center justify-center border-[#FF30E3] border-2 rounded-3xl">
             <h1 className="font-bold text-[#EC3015]">Ji Xian sneakers</h1>
-            <h1 className="font-light text-[#FF30E3]">sizes: 4-8</h1>
-            <h1 className="font-light text-[#FF30E3]">3 colours</h1>
+            <h1 className="font-light text-[#FF30E3] text-xxs md:text-xs">
+              sizes: 4-8
+            </h1>
+            <h1 className="font-light text-[#FF30E3] text-xxs md:text-xs">
+              3 colours
+            </h1>
           </div>
           {/* Ji Xian sneakers */}
           <img
             src={jixian}
             alt="jixian"
-            className="absolute inset-0 w-32  left-20 top-20 "
+            className="absolute duration-300 ease-in-out md:hover:-rotate-12  md:hover:scale-105 inset-0 w-32 md:w-60 md:left-52 left-20 top-20 "
           />
 
           {/* Nike Air Jordan 4s
            */}
-          <div className=" absolute inset-0 -left-12 h-[80px] w-[130px] top-40 text-xs flex flex-col p-1  space-y-2 items-center justify-center border-[#FF30E3] border-2 rounded-3xl">
+          <div className=" absolute inset-0 md:-left-52 md:top-28 -left-12 md:h-[130px] md:w-[200px]  h-[80px] w-[130px] top-40 text-xs md:text-lg flex flex-col p-1  space-y-2 items-center justify-center border-[#FF30E3] border-2 rounded-3xl">
             <h1 className="font-bold text-[#EC3015]">nike air jordan 4s</h1>
-            <h1 className="font-light text-[#FF30E3]">sizes: 1-8</h1>
-            <h1 className="font-light text-[#FF30E3]">All colours</h1>
+            <h1 className="font-light text-[#FF30E3]  text-xxs md:text-xs">
+              sizes: 1-8
+            </h1>
+            <h1 className="font-light text-[#FF30E3]  text-xxs md:text-xs">
+              All colours
+            </h1>
           </div>
           {/* Nike Air Jordan 4s */}
           <img
             src={jordan}
             alt="jordan"
-            className="absolute inset-0 w-32  -left-16 top-4 "
+            className="absolute duration-300 ease-in-out md:hover:rotate-12 md:hover:scale-105 inset-0 w-32 md:w-60 md:-left-32  -left-16   top-4 "
           />
 
-          {/* Nike Air Jordan 4s
+          {/* Nike Air untempo
            */}
-          <div className=" absolute inset-0 -left-14 h-[80px] w-[130px] -top-32 text-xs flex flex-col p-1  space-y-2 items-center justify-center border-[#FF30E3] border-2 rounded-3xl">
+          <div className=" absolute inset-0 -left-14 md:-left-40 h-[80px] md:w-[150px] w-[130px] -top-32 text-xs flex flex-col p-1  space-y-2 items-center justify-center border-[#FF30E3] border-2 rounded-3xl">
             <h1 className="font-bold text-[#EC3015]">nike air untempo</h1>
-            <h1 className="font-light text-[#FF30E3]">sizes: 2-10</h1>
-            <h1 className="font-light text-[#FF30E3]">limited colors</h1>
+            <h1 className="font-light text-[#FF30E3]  text-xxs md:text-xs">
+              sizes: 2-10
+            </h1>
+            <h1 className="font-light text-[#FF30E3]  text-xxs md:text-xs">
+              limited colors
+            </h1>
           </div>
-          {/* Nike Air Jordan 4s */}
+          {/*Nike Air untempo  */}
           <img
             src={untempohand}
             alt="jordan"
-            className="absolute inset-0 w-20  -left-2 -top-28 "
+            className="absolute duration-300 ease-in-out md:hover:translate-y-2 hover:translate-y-2 inset-0 w-20 md:w-28  md:-left-4 md:-top-48  -left-2 -top-28 "
           />
           <img
             src={untempo}
             alt="jordan"
-            className="absolute inset-0 w-32  -left-12 -top-20 "
+            className="absolute duration-300 ease-in-out md:hover:-rotate-12  hover:-translate-y-2 md:hover:-translate-y-0 md:hover:scale-105 inset-0 w-32 md:w-60  md:-left-28 md:-top-40  -left-12 -top-20 "
           />
-          <button className="px-4 py-2  bg-[#EC3015] rounded-full text-white font-bold">
+          <button className="md:absolute top-24 left-20 md:px-8 px-4 py-2  bg-[#EC3015] rounded-full text-white font-bold">
             Order
           </button>
+        </div>
+      </div>
+      <div className="relative flex items-center justify-center md:pb-0 pb-20 w-[320px] md:-translate-y-28 flex-col md:w-full h-[100px]  ">
+        <img
+          src={smashyfooter}
+          alt=""
+          className="absolute md:left-[530px] inset-0 w-96"
+        />
+        <h1 className="md:text-8xl text-5xl uppercase text-[#FF30E3] font-bold z-10 translate-y-60 md:translate-y-48 ">
+          Smashy
+        </h1>
+        <div className="z-10 translate-y-72 bg-white/10 backdrop-blur-sm border border-[#FF30E3] py-2 px-6 rounded-xl max-w-[320px]  md:max-w-full flex flex-col justify-center items-center space-y-3">
+          <h1 className="md:px-96 uppercase text-center md:text-2xl font-bold text-white">
+            <span className="text-[#FF30E3]">thank you,</span>{" "}
+            <span className="md:text-white text-[#FF30E3]">our lovely</span>
+            <span className="text-[#FF30E3]"> customers</span>
+          </h1>
+          <h1 className="text-[#EC3015] md:text-base text-xs font-semibold">
+            VISIT US AGAIN WE LOVE YOU!!
+          </h1>
+          <div className="grid grid-cols-3 gap-4">
+            <img
+              src={instagram}
+              alt="instagram"
+              className="w-8 cursor-pointer duration-200 ease-in-out hover:scale-110"
+            />
+            <img
+              src={whatsup}
+              alt="instagram"
+              className="w-8 cursor-pointer duration-200 ease-in-out hover:scale-110"
+            />
+            <img
+              src={facebook}
+              alt="instagram"
+              className="w-8 cursor-pointer duration-200 ease-in-out hover:scale-110"
+            />
+          </div>
         </div>
       </div>
     </div>
