@@ -151,32 +151,9 @@ const Gallery = () => {
               <a
                 href="whatsapp://send?phone=+27815218030"
                 target="_blank"
-                // onClick={() => setClicked((prev) => !prev)}
-                className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in-out px-6 cursor-pointer z-10 font-bold rounded-full flex items-center justify-center"
+                className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in-out px-6 cursor-pointer z-20 font-bold rounded-full flex items-center justify-center"
               >
                 Order
-                {/* {clicked && (
-                  <div
-                    className="absolute transition-opacity duration-1000 space-y-2  left-20  md:-top-10 -top-16  py-4 bg-[#FF30E3]/80
-                      items-center justify-center rounded-full flex flex-col"
-                  >
-                    <a href="whatsapp://send?phone=+27815218030">
-                      <img
-                        src={whatsup}
-                        alt="WhatsApp Smashy"
-                        className="w-8 hover:-translate-y-1 duration-200 ease-linear"
-                      />
-                    </a>
-
-                    <a href="tel: +27 81 521 8030">
-                      <img
-                        src={phone}
-                        alt="Call Smashy"
-                        className="w-8 hover:-translate-y-1 duration-200 ease-linear"
-                      />
-                    </a>
-                  </div>
-                )} */}
               </a>
             </div>
             <div
