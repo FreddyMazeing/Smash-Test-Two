@@ -1,15 +1,10 @@
-import React, { useState } from "react";
 import { MdAddShoppingCart } from "react-icons/md";
-import whatsup from "../assets/whatsup.png";
-import phone from "../assets/phone.png";
 import cleanairmax from "../assets/cleanairmax.png";
 import niketnairmaxblack from "../assets/niketnairmaxblack.png";
 import niketnairmaxbrown from "../assets/niketnairmaxbrown.png";
-
 import { TbPointFilled } from "react-icons/tb";
 
 const Gallery = () => {
-  const [clicked, setClicked] = useState(false);
   return (
     <div className="max-w-full min-h-screen bg-white font-montserrat ">
       <div
@@ -43,12 +38,16 @@ const Gallery = () => {
               <h1 className="text-xxs md:text-sm font-thin px-3">
                 ORDER YOURS
               </h1>
-              <div className="px-4 rounded-full relative flex flex-col  bg-[#FF30E3] text-sm py-2 ">
+              <a
+                href="whatsapp://send?phone=+27815218030"
+                target="_blank"
+                className="px-4 rounded-full relative flex flex-col  bg-[#FF30E3] text-sm py-2 "
+              >
                 <MdAddShoppingCart
-                  onClick={() => setClicked((prev) => !prev)}
+                  // onClick={() => setClicked((prev) => !prev)}
                   className=" cursor-pointer  ease-in-out hover:scale-110 hover:text-[#EC3015]"
                 />
-                {clicked && (
+                {/* {clicked && (
                   <div
                     className="absolute transition-opacity duration-1000 space-y-2    -top-28 left-2 py-4 bg-[#FF30E3]/10 backdrop-blur-sm
                       items-center justify-center rounded-full flex flex-col"
@@ -69,8 +68,8 @@ const Gallery = () => {
                       />
                     </a>
                   </div>
-                )}
-              </div>
+                )} */}
+              </a>
             </div>
           </div>
         </div>
@@ -84,30 +83,32 @@ const Gallery = () => {
               className=" absolute inset-0 md:hover:translate-x-24 md:hover:scale-105 duration-200 ease-in-out hover:contrast-125  md:w-5/6 w-[200px] md:-top-0 top-5 -left-0  md:-left-80"
             />
             <div></div>
-            <div className="flex text-white md:px-8 border border-white md:py-8 shadow-md shadow-black/20  bg-gradient-to-t from-[#FF30E3]/50 p-2 text-center items-center rounded-md md:rounded-full backdrop-blur-sm text-xs flex-col space-y-1 translate-x-6 md:space-y-3">
-              <h1 className="font-bold  md:text-[#EC3015] ">
+            <div className="flex md:hover:scale-110 duration-300 ease-in-out text-white md:px-8 border border-white md:py-8 shadow-md shadow-black/20  bg-gradient-to-t from-[#FF30E3]/50 p-2 text-center items-center rounded-md md:rounded-full backdrop-blur-sm text-xs flex-col space-y-1 translate-x-6 md:space-y-3">
+              <h1 className="font-bold  text-[#EC3015] ">
                 NIKE TN AIR MAX +(plus)
               </h1>
-              <h2 className="font-bold text-xxs md:text-[#EC3015] ">
+              <h2 className="font-bold text-xxs text-[#EC3015] ">
                 AVAILABLE IN-SIZES
               </h2>
               <div className="flex items-center space-x-1">
-                <TbPointFilled className="text-white md:text-[#EC3015] " />
-                <h3 className="  md:text-[#EC3015] font-extralight text-xs md:text-sm text-white">
+                <TbPointFilled className="text-[#EC3015] " />
+                <h3 className="  text-[#EC3015] font-extralight text-xs md:text-sm ">
                   2 TO 9
                 </h3>
               </div>
-              <div className="flex  text-white items-center">
+              <div className="flex  text-[#EC3015] items-center">
                 <h2 className="font-extralight  text-xxs md:text-sm">
                   LIMITED COLORS
                 </h2>
               </div>
-              <button
-                onClick={() => setClicked((prev) => !prev)}
+              <a
+                href="whatsapp://send?phone=+27815218030"
+                target="_blank"
+                // onClick={() => setClicked((prev) => !prev)}
                 className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in- font-bold px-10 py-2 text-[#EC3015] rounded-full text-center"
               >
                 Order
-                {clicked && (
+                {/* {clicked && (
                   <div
                     className="absolute transition-opacity duration-1000 space-y-2  left-16  -top-0  py-4 bg-[#FF30E3]/10 backdrop-blur-sm
                       items-center justify-center rounded-full flex flex-col"
@@ -128,8 +129,8 @@ const Gallery = () => {
                       />
                     </a>
                   </div>
-                )}
-              </button>
+                )} */}
+              </a>
             </div>
           </div>
         </div>
@@ -147,12 +148,14 @@ const Gallery = () => {
             >
               <h1 className="text-[#FF30E3] font-bold">PURCHASE</h1>
               <h2 className="text-[#EC3015] font-light text-sm">TODAY</h2>
-              <button
-                onClick={() => setClicked((prev) => !prev)}
+              <a
+                href="whatsapp://send?phone=+27815218030"
+                target="_blank"
+                // onClick={() => setClicked((prev) => !prev)}
                 className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in-out px-6 cursor-pointer z-10 font-bold rounded-full flex items-center justify-center"
               >
                 Order
-                {clicked && (
+                {/* {clicked && (
                   <div
                     className="absolute transition-opacity duration-1000 space-y-2  left-20  md:-top-10 -top-16  py-4 bg-[#FF30E3]/80
                       items-center justify-center rounded-full flex flex-col"
@@ -173,8 +176,8 @@ const Gallery = () => {
                       />
                     </a>
                   </div>
-                )}
-              </button>
+                )} */}
+              </a>
             </div>
             <div
               className="absolute hidden md:flex md:hover:scale-110 duration-300 ease-in-out

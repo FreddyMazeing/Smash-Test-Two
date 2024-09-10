@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
-import whatsup from "../assets/whatsup.png";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
@@ -72,9 +71,14 @@ const NavBar = () => {
           justify-center items-center md:hidden"
         >
           <ul className=" flex flex-col justify-center items-center  text-[#EC3015] py-6 space-y-8 font-semibold font-montserrat text-base ">
-            <li className="hover:text-[#FF30E3] cursor-pointer duration-200 ease-in-out">
+            <Link
+              to="home"
+              smooth={true}
+              duration={100}
+              className="hover:text-[#FF30E3] cursor-pointer duration-200 ease-in-out"
+            >
               Home
-            </li>
+            </Link>
             <Link
               to="gallery"
               smooth={true}
@@ -83,9 +87,14 @@ const NavBar = () => {
             >
               Gallery
             </Link>
-            <li className="hover:text-[#FF30E3] cursor-pointer duration-200 ease-in-out">
+            <Link
+              to="contact"
+              smooth={true}
+              duration={100}
+              className="hover:text-[#FF30E3] cursor-pointer duration-200 ease-in-out"
+            >
               Contact
-            </li>
+            </Link>
           </ul>
         </div>
       )}

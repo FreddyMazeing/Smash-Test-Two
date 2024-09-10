@@ -28,13 +28,15 @@ const Footer = () => {
         {/* Repusen ELEMENT */}
         <div className="max-w-[320px] md:max-w-full flex  flex-col items-center py-4 px-2 justify-center ">
           <div className=" relative bg-gradient-to-b from-[#FF30E3]/100 to-white to-80%    grid grid-rows-2 gap-28 md:gap-20 p-2   rounded-3xl ">
-            <button
-              className="absolute inset-0 bg-[#FF30E3]/10 rounded-full -top-6 
+            <a
+              href="whatsapp://send?phone=+27815218030"
+              target="_blank"
+              className="absolute inset-0 text-center items-center flex justify-center bg-[#FF30E3]/10 rounded-full -top-6 
               text-xl hover:scale-110 duration-200 shadow-md shadow-black/10 md:left-[70px] left-16 
                 w-[150px] h-[40px] backdrop-blur-sm font-bold hover:text-[#ff0000] hover:tracking-wider text-[#EC3015]"
             >
               Order
-            </button>
+            </a>
             <div className="  flex flex-col justify-center items-center px-4 py-4  space-y-3">
               <h1 className="text-4xl font-bold  uppercase text-white">
                 repusen
@@ -134,9 +136,13 @@ const Footer = () => {
                 <h1 className="font-light text-[#EC3015] text-xs  uppercase">
                   Today
                 </h1>
-                <button className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in-out text-[#EC3015] font-bold text-xl rounded-full px-6 py-1">
+                <a
+                  href="whatsapp://send?phone=+27815218030"
+                  target="_blank"
+                  className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in-out text-[#EC3015] font-bold text-xl rounded-full px-6 py-1"
+                >
                   Order
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -236,9 +242,13 @@ const Footer = () => {
             alt="jordan"
             className="absolute duration-300 ease-in-out md:hover:-rotate-12  hover:-translate-y-2 md:hover:-translate-y-0 md:hover:scale-105 inset-0 w-32 md:w-60  md:-left-28 md:-top-40  -left-12 -top-20 "
           />
-          <button className="md:absolute top-24 left-20 md:px-8 px-4 py-2  bg-[#EC3015] rounded-full text-white font-bold">
+          <a
+            href="whatsapp://send?phone=+27815218030"
+            target="_blank"
+            className="md:absolute top-24 left-20 md:px-8 px-4 py-2 uppercase  bg-[#EC3015] rounded-full text-white font-bold"
+          >
             Order
-          </button>
+          </a>
         </div>
       </div>
 
@@ -261,7 +271,7 @@ const Footer = () => {
             <span className="md:text-white ">our lovely</span>
             <span className="md:text-[#EC3015]"> customers</span>
           </h1>
-          <h1 className="text-[#EC3015] md:text-base text-xs font-semibold">
+          <h1 className="text-[#EC3015] md:text-base text-center text-xs font-semibold">
             VISIT US AGAIN WE'D LOVE TO SEE YOU SOON!!
           </h1>
           <div className="grid grid-cols-3 gap-4">
@@ -272,7 +282,7 @@ const Footer = () => {
                 className="w-8 cursor-pointer duration-200 ease-in-out hover:scale-110"
               />
             </a>
-            <a href="whatsapp://send?phone=+27781351373" target="_blank">
+            <a href="whatsapp://send?phone=+27815218030" target="_blank">
               {" "}
               <img
                 src={whatsup}

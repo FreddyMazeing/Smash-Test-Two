@@ -1,4 +1,3 @@
-import React from "react";
 import niketnairmax from "../assets/niketnairmax.png";
 import smashy1 from "../assets/smashy1.png";
 import smashy2 from "../assets/smashy2.png";
@@ -7,6 +6,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import whatsup from "../assets/whatsup.png";
 import instagram from "../assets/instagram.png";
 import facebook from "../assets/facebook.png";
+import { Link } from "react-scroll";
 
 const HeroSection = () => {
   return (
@@ -70,7 +70,12 @@ const HeroSection = () => {
           </p>
           <div className="text-[#EC3015]  flex space-x-3 items-center">
             <button>ORDER</button>
-            <FaLongArrowAltRight className="cursor-pointer hover:translate-x-4 duration-200 ease-linear" />
+            <Link to="gallery" smooth={true} duration={100}>
+              <FaLongArrowAltRight
+                className="cursor-pointer hover:translate-x-4 
+           duration-200 ease-linear"
+              />
+            </Link>
           </div>
           <div className="flex space-x-3 pt-6 justify-center  items-center">
             <a
@@ -83,7 +88,7 @@ const HeroSection = () => {
                 className="w-6 hover:scale-110 duration-200 ease-in-out cursor-pointer"
               />
             </a>
-            <a href="whatsapp://send?phone=+27781351373" target="_blank">
+            <a href="whatsapp://send?phone=+27815218030" target="_blank">
               <img
                 src={whatsup}
                 alt="whatsup icon"
@@ -136,24 +141,39 @@ const HeroSection = () => {
           </p>
           <div className="text-[#EC3015]  flex space-x-3 items-center">
             <button>ORDER</button>
-            <FaLongArrowAltRight className="cursor-pointer hover:translate-x-4 duration-200 ease-linear" />
+            <Link to="gallery" smooth={true} duration={100}>
+              {" "}
+              <FaLongArrowAltRight
+                className="cursor-pointer hover:translate-x-4
+             duration-200 ease-linear"
+              />
+            </Link>
           </div>
           <div className="flex space-x-6 pt-6 justify-center  items-center">
-            <img
-              src={facebook}
-              alt="facebook icon"
-              className="w-8 hover:scale-110 duration-200 ease-in-out cursor-pointer"
-            />
-            <img
-              src={whatsup}
-              alt="whatsup icon"
-              className="w-8 hover:scale-110 duration-200 ease-in-out cursor-pointer"
-            />
-            <img
-              src={instagram}
-              alt="instagram icon"
-              className="w-8 hover:scale-110 duration-200 ease-in-out cursor-pointer"
-            />
+            <a
+              href="https://www.facebook.com/profile.php?id=100094699056036"
+              target="_blank"
+            >
+              <img
+                src={facebook}
+                alt="facebook icon"
+                className="w-8 hover:scale-110 duration-200 ease-in-out cursor-pointer"
+              />
+            </a>
+            <a href="whatsapp://send?phone=+27815218030" target="_blank">
+              <img
+                src={whatsup}
+                alt="whatsup icon"
+                className="w-8 hover:scale-110 duration-200 ease-in-out cursor-pointer"
+              />
+            </a>
+            <a href="https://www.instagram.com/smashyfootwear/" target="_blank">
+              <img
+                src={instagram}
+                alt="instagram icon"
+                className="w-8 hover:scale-110 duration-200 ease-in-out cursor-pointer"
+              />
+            </a>
           </div>
         </div>
       </div>
