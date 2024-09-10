@@ -105,7 +105,7 @@ const Gallery = () => {
                 href="whatsapp://send?phone=+27815218030"
                 target="_blank"
                 // onClick={() => setClicked((prev) => !prev)}
-                className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in- font-bold px-10 py-2 text-[#EC3015] rounded-full text-center"
+                className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in-out font-bold px-10 py-2 text-[#EC3015] rounded-full text-center"
               >
                 Order
                 {/* {clicked && (
@@ -151,7 +151,7 @@ const Gallery = () => {
               <a
                 href="whatsapp://send?phone=+27815218030"
                 target="_blank"
-                className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in-out px-6 cursor-pointer z-20 font-bold rounded-full flex items-center justify-center"
+                className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in-out px-6  z-20 font-bold rounded-full text-center "
               >
                 Order
               </a>
@@ -174,13 +174,13 @@ const Gallery = () => {
               src={niketnairmaxbrown}
               alt="niketnairmaxbrown"
               className=" absolute inset-0 md:hover:scale-110 duration-200 ease-in-out
-               hover:contrast-125 md:w-[400px] w-[200px] md:-top-16 -top-3op-5 -left-2  md:-left-40"
+               hover:contrast-125 md:w-[400px] w-[200px] md:-top-16 top-10 -left-2  md:-left-40"
             />
             <img
               src={niketnairmaxblack}
               alt="niketnairmaxblack"
               className=" absolute inset-0 md:hover:scale-110 duration-200 ease-in-out 
-                md:w-[400px] w-[200px] md:top-16 top-28 left-24  md:left-72"
+                md:w-[400px] w-[200px] md:top-16 top-36 left-24  md:left-72"
             />
           </div>
         </div>
