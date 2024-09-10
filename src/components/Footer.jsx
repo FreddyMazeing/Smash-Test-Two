@@ -245,7 +245,7 @@ const Footer = () => {
           <a
             href="whatsapp://send?phone=+27815218030"
             target="_blank"
-            className="md:absolute top-24 left-20 md:px-8 px-4 py-2 uppercase  bg-[#EC3015] rounded-full text-white font-bold"
+            className="md:absolute top-24 left-20 md:px-8 px-4 py-2 uppercase  bg-[#EC3015] duration-200 ease-in-out hover:bg-[#FF30E3] rounded-full text-white font-bold"
           >
             Order
           </a>

@@ -29,7 +29,7 @@ const Gallery = () => {
         </p>
 
         {/* THE GALLERY */}
-        <div className="flex    rounded-full  ease-linear items-center space-x-6 justify-end  shadow-sm shadow-black/20 ">
+        <div className="flex md:hover:tracking-widest duration-300 ease-linear    rounded-full  ease-linear items-center space-x-6 justify-end  shadow-sm shadow-black/20 ">
           <h1 className="uppercase font-semibold text-[#FF30E3] pl-6 text-xxs md:text-sm ">
             the Gallery
           </h1>
