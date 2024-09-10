@@ -7,7 +7,6 @@ import niketnairmaxblack from "../assets/niketnairmaxblack.png";
 import niketnairmaxbrown from "../assets/niketnairmaxbrown.png";
 
 import { TbPointFilled } from "react-icons/tb";
-import { HiOutlineMinus } from "react-icons/hi2";
 
 const Gallery = () => {
   const [clicked, setClicked] = useState(false);
@@ -78,14 +77,14 @@ const Gallery = () => {
 
         {/*Nike TN AIR CREAM  */}
         <div className="flex max-w-[340px]  md:max-w-full items-center my-20 justify-center ">
-          <div className="relative grid grid-cols-2 text-white space-y-2 justify-center py-4 md:rounded-full rounded-3xl pr-14 md:px-20 px-10 bg-[#FF30E3] ">
+          <div className="relative grid grid-cols-2 text-white space-y-2 justify-center py-4 md:rounded-full rounded-3xl pr-14 md:px-20 px-10 border-2 border-[#EC3015]/20 bg-gradient-to-br from-[#FF30E3]/60 via-white to-[#FF30E3]/30 ">
             <img
               src={cleanairmax}
               alt="niketnairmax"
               className=" absolute inset-0 md:hover:translate-x-24 md:hover:scale-105 duration-200 ease-in-out hover:contrast-125  md:w-5/6 w-[200px] md:-top-0 top-5 -left-0  md:-left-80"
             />
             <div></div>
-            <div className="flex text-white md:px-8 md:py-8 shadow-md shadow-black/20  bg-[#FF30E3]/10 p-2 text-center items-center rounded-md md:rounded-full backdrop-blur-sm text-xs flex-col space-y-1 translate-x-6 md:space-y-3">
+            <div className="flex text-white md:px-8 border border-white md:py-8 shadow-md shadow-black/20  bg-gradient-to-t from-[#FF30E3]/50 p-2 text-center items-center rounded-md md:rounded-full backdrop-blur-sm text-xs flex-col space-y-1 translate-x-6 md:space-y-3">
               <h1 className="font-bold  md:text-[#EC3015] ">
                 NIKE TN AIR MAX +(plus)
               </h1>
@@ -136,9 +135,13 @@ const Gallery = () => {
         </div>
         {/*Nike TN AIR Black And Brown  */}
         <div className="flex max-w-[320px]  md:max-w-full mx-2 items-center my-20 justify-center">
-          <div className="relative  flex text-white space-y-2 justify-center items-start py-16  md:py-20 rounded-3xl md:rounded-full   md:px-40 px-10 bg-[#FF30E3] ">
+          <div
+            className="relative  flex text-white space-y-2 justify-center items-start py-16 
+           md:py-20 rounded-3xl md:rounded-full border border-[#EC3015]/20  md:px-40 px-10
+            bg-gradient-to-r from-white via-[#FF30E3]/70 "
+          >
             <div
-              className="absolute md:hover:scale-110 duration-300 ease-in-out inset-0 left-12 
+              className="absolute border-[#EC3015]/20 border md:hover:scale-110 duration-300 ease-in-out inset-0 left-12 
             md:left-[350px] -top-14 flex space-y-2 flex-col items-center  text-red-500 
              bg-white/10 shadow-md shadow-black/10 rounded-3xl backdrop-blur-sm justify-center w-[200px] h-[100px]"
             >
@@ -173,12 +176,20 @@ const Gallery = () => {
                 )}
               </button>
             </div>
-            <div className="absolute hidden md:flex md:hover:scale-110 duration-300 ease-in-out inset-0  left-10 -top-[106px]  space-y-2 flex-col items-center    bg-gradient-to-r from-[#FF30E3]/20 via-white/40  animate-bounce to-[#FF30E3]/10 shadow-md shadow-black/10 rounded-full backdrop-blur-sm justify-center w-[100px] h-[100px]">
+            <div
+              className="absolute hidden md:flex md:hover:scale-110 duration-300 ease-in-out
+             inset-0 border-[#EC3015]/20 border  left-10 -top-[106px]  space-y-2 flex-col
+              items-center    bg-gradient-to-r from-[#FF30E3]/20 via-white/40 
+               animate-bounce to-[#FF30E3]/10 shadow-md shadow-black/10 rounded-full
+                backdrop-blur-sm justify-center w-[100px] h-[100px]"
+            >
               <h1 className="font-bold text-[#EC3015] font-montserrat">
                 Specials
               </h1>
             </div>
-            <h1 className="font-bold ">NIKE TN AIR MAX +(plus)</h1>
+            <h1 className="font-bold text-[#EC3015] ">
+              NIKE TN AIR MAX +(plus)
+            </h1>
             <img
               src={niketnairmaxbrown}
               alt="niketnairmaxbrown"

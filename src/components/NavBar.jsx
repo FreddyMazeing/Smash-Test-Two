@@ -10,7 +10,7 @@ const NavBar = () => {
     setOpen(!open);
   };
   return (
-    <nav className="sticky  shadow-md shadow-[#FF30E3]/20 realtive font-montserrat   backdrop-blur-sm top-0 z-20 bg-[#FF30E3]/10 ">
+    <nav className="sticky  shadow-md border border-white/20 shadow-[#FF30E3]/20 realtive font-montserrat   backdrop-blur-sm top-0 z-20 bg-[#FF30E3]/10 ">
       <div className=" flex items-center justify-between mx-4 md:mx-8 py-8  md:py-4">
         {/* Smashy Logo */}
         <h1 className="text-xl font-semibold text-[#EC3015]  hover:text-[#FF30E3] duration-200 ease-in-out cursor-pointer">
@@ -18,9 +18,14 @@ const NavBar = () => {
         </h1>
         {/*Desktop Nav Items */}
         <ul className="hidden md:flex text-base space-x-20 text-[#EC3015] ">
-          <li className="hover:text-[#FF30E3]  cursor-pointer duration-200 ease-in-out">
+          <Link
+            to="home"
+            smooth={true}
+            duration={100}
+            className="hover:text-[#FF30E3]  cursor-pointer duration-200 ease-in-out"
+          >
             Home
-          </li>
+          </Link>
           <Link
             to="gallery"
             smooth={true}
@@ -29,9 +34,14 @@ const NavBar = () => {
           >
             Gallery
           </Link>
-          <li className="hover:text-[#FF30E3]  cursor-pointer duration-200 ease-in-out">
+          <Link
+            to="contact"
+            smooth={true}
+            duration={100}
+            className="hover:text-[#FF30E3]  cursor-pointer duration-200 ease-in-out"
+          >
             Contact
-          </li>
+          </Link>
         </ul>
 
         {/* open */}

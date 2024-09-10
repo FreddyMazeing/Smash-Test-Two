@@ -27,7 +27,7 @@ const Footer = () => {
       <div className="grid md:grid-cols-2 max-w-[320px] min-h-screen my-48 gap-28  items-center justify-center md:max-w-full ">
         {/* Repusen ELEMENT */}
         <div className="max-w-[320px] md:max-w-full flex  flex-col items-center py-4 px-2 justify-center ">
-          <div className=" relative bg-[#FF30E3] grid grid-rows-2 gap-28 md:gap-20 p-2   rounded-3xl ">
+          <div className=" relative bg-gradient-to-b from-[#FF30E3]/100 to-white to-80%    grid grid-rows-2 gap-28 md:gap-20 p-2   rounded-3xl ">
             <button
               className="absolute inset-0 bg-[#FF30E3]/10 rounded-full -top-6 
               text-xl hover:scale-110 duration-200 shadow-md shadow-black/10 md:left-[70px] left-16 
@@ -241,7 +241,12 @@ const Footer = () => {
           </button>
         </div>
       </div>
-      <div className="relative flex items-center justify-center md:pb-0 pb-20 w-[320px] -translate-y-28 flex-col md:w-full h-[100px]  ">
+
+      {/* Than you We love you */}
+      <div
+        name="contact"
+        className="relative flex items-center justify-center md:pb-0 pb-20 w-[320px] -translate-y-28 flex-col md:w-full h-[100px]  "
+      >
         <img
           src={smashyfooter}
           alt=""
@@ -250,31 +255,41 @@ const Footer = () => {
         <h1 className="md:text-8xl text-5xl uppercase text-[#FF30E3] font-bold z-10 translate-y-60 md:translate-y-48 ">
           Smashy
         </h1>
-        <div className="z-10 translate-y-72 bg-white/10 backdrop-blur-sm border border-[#FF30E3] py-2 px-6 rounded-xl max-w-[320px]  md:max-w-full flex flex-col justify-center items-center space-y-3">
-          <h1 className="md:px-96 uppercase text-center md:text-2xl font-bold text-[#EC3015]">
+        <div className="z-10 translate-y-72 bg-white/10 backdrop-blur-sm border border-[#FF30E3]/20 py-2 px-6 rounded-xl max-w-[320px]  md:max-w-full flex flex-col justify-center items-center space-y-3">
+          <h1 className="md:px-44 uppercase text-center md:text-2xl font-bold text-[#EC3015]">
             <span className="md:text-[#EC3015]">thank you,</span>{" "}
             <span className="md:text-white ">our lovely</span>
             <span className="md:text-[#EC3015]"> customers</span>
           </h1>
           <h1 className="text-[#EC3015] md:text-base text-xs font-semibold">
-            VISIT US AGAIN WE'D LOVE YOU SOON!!
+            VISIT US AGAIN WE'D LOVE TO SEE YOU SOON!!
           </h1>
           <div className="grid grid-cols-3 gap-4">
-            <img
-              src={instagram}
-              alt="instagram"
-              className="w-8 cursor-pointer duration-200 ease-in-out hover:scale-110"
-            />
-            <img
-              src={whatsup}
-              alt="instagram"
-              className="w-8 cursor-pointer duration-200 ease-in-out hover:scale-110"
-            />
-            <img
-              src={facebook}
-              alt="instagram"
-              className="w-8 cursor-pointer duration-200 ease-in-out hover:scale-110"
-            />
+            <a href="https://www.instagram.com/smashyfootwear/" target="_blank">
+              <img
+                src={instagram}
+                alt="instagram"
+                className="w-8 cursor-pointer duration-200 ease-in-out hover:scale-110"
+              />
+            </a>
+            <a href="whatsapp://send?phone=+27781351373" target="_blank">
+              {" "}
+              <img
+                src={whatsup}
+                alt="instagram"
+                className="w-8 cursor-pointer duration-200 ease-in-out hover:scale-110"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100094699056036"
+              target="_blank"
+            >
+              <img
+                src={facebook}
+                alt="instagram"
+                className="w-8 cursor-pointer duration-200 ease-in-out hover:scale-110"
+              />
+            </a>
           </div>
         </div>
       </div>
