@@ -47,9 +47,9 @@ const NavBar = () => {
         <div className="md:hidden sm:flex flex-col justify-end z-50">
           <button onClick={toggleNavBar}>
             {open ? (
-              <GiHamburgerMenu className="text-3xl text-[#EC3015]  " />
+              <IoCloseSharp className="text-3xl text-[#EC3015]  " />
             ) : (
-              <IoCloseSharp className="text-3xl text-[#EC3015]" />
+              <GiHamburgerMenu  className="text-3xl text-[#EC3015]" />
             )}
           </button>
         </div>
