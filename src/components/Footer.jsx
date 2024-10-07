@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="max-w-[320px] md:max-w-full flex  flex-col items-center py-4 px-2 justify-center ">
           <div className=" relative bg-gradient-to-b from-[#FF30E3]/100 to-white to-80%    grid grid-rows-2 gap-28 md:gap-20 p-2   rounded-3xl ">
             <a
-              href="whatsapp://send?phone=+27815218030"
+              href="whatsapp://send?phone=+27663832381"
               target="_blank"
               className="absolute inset-0 text-center items-center flex justify-center bg-[#FF30E3]/10 rounded-full -top-6 
               text-xl hover:scale-110 duration-200 shadow-md shadow-black/10 md:left-[70px] left-16 
@@ -137,7 +137,7 @@ const Footer = () => {
                   Today
                 </h1>
                 <a
-                  href="whatsapp://send?phone=+27815218030"
+                  href="whatsapp://send?phone=+27663832381"
                   target="_blank"
                   className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in-out text-[#EC3015] font-bold text-xl rounded-full px-6 py-1"
                 >
