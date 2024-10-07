@@ -25,16 +25,16 @@ const Smashy = () => {
             className="absolute inset-0 w-full h-full object-cover s"
           />
           <div className="flex items-center  px-6 space-x-8 py-2 justify-between backdrop-blur-sm rounded-xl   ">
-            <a href="whatsapp://send?phone=+27815218030" target="_blank">
+            <a href="whatsapp://send?phone=+27663832381" target="_blank">
               {" "}
               <img src={whatsup} alt="WhatsApp" className="w-8" />
             </a>
-            <a href="https://www.instagram.com/smashyfootwear/" target="_blank">
+            <a href="https://www.instagram.com/mazeing.z/" target="_blank">
               {" "}
               <img src={instagram} alt="Instagram" className="w-8" />
             </a>
             <a
-              href="https://www.facebook.com/profile.php?id=100094699056036"
+              href="https://www.facebook.com/profile.php?id=100083277746215"
               target="_blank"
             >
               {" "}
