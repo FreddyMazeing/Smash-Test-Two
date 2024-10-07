@@ -39,7 +39,7 @@ const Gallery = () => {
                 ORDER YOURS
               </h1>
               <a
-                href="whatsapp://send?phone=+27815218030"
+                href="whatsapp://send?phone=+27663832381"
                 target="_blank"
                 className="px-4 rounded-full relative flex flex-col  bg-[#FF30E3] text-sm py-2 "
               >
@@ -102,7 +102,7 @@ const Gallery = () => {
                 </h2>
               </div>
               <a
-                href="whatsapp://send?phone=+27815218030"
+                href="whatsapp://send?phone=+27663832381"
                 target="_blank"
                 // onClick={() => setClicked((prev) => !prev)}
                 className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in-out font-bold px-10 py-2 text-[#EC3015] rounded-full text-center"
@@ -149,7 +149,7 @@ const Gallery = () => {
               <h1 className="text-[#FF30E3] font-bold">PURCHASE</h1>
               <h2 className="text-[#EC3015] font-light text-sm">TODAY</h2>
               <a
-                href="whatsapp://send?phone=+27815218030"
+                href="whatsapp://send?phone=+27663832381"
                 target="_blank"
                 className="bg-white hover:bg-[#EC3015] hover:text-white duration-200 ease-in-out px-6  z-20 font-bold rounded-full text-center "
               >
