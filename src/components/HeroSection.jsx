@@ -88,7 +88,7 @@ const HeroSection = () => {
                 className="w-6 hover:scale-110 duration-200 ease-in-out cursor-pointer"
               />
             </a>
-            <a href="whatsapp://send?phone=+27815218030" target="_blank">
+            <a href="whatsapp://send?phone=+27663832381" target="_blank">
               <img
                 src={whatsup}
                 alt="whatsup icon"
@@ -151,7 +151,7 @@ const HeroSection = () => {
           </div>
           <div className="flex space-x-6 pt-6 justify-center  items-center">
             <a
-              href="https://www.facebook.com/profile.php?id=100094699056036"
+              href="https://www.facebook.com/profile.php?id=100083277746215"
               target="_blank"
             >
               <img
@@ -160,14 +160,14 @@ const HeroSection = () => {
                 className="w-8 hover:scale-110 duration-200 ease-in-out cursor-pointer"
               />
             </a>
-            <a href="whatsapp://send?phone=+27815218030" target="_blank">
+            <a href="whatsapp://send?phone=+27663832381" target="_blank">
               <img
                 src={whatsup}
                 alt="whatsup icon"
                 className="w-8 hover:scale-110 duration-200 ease-in-out cursor-pointer"
               />
             </a>
-            <a href="https://www.instagram.com/smashyfootwear/" target="_blank">
+            <a href="https://www.instagram.com/mazeing.z/ target="_blank">
               <img
                 src={instagram}
                 alt="instagram icon"
